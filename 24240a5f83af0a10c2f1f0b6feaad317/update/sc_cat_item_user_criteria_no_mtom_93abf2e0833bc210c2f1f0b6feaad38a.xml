@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Aqua Power Request">496b7ea0833bc210c2f1f0b6feaad319</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-07-31 17:20:05</sys_created_on>
+        <sys_id>93abf2e0833bc210c2f1f0b6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aqua Power Request.SNC External</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_93abf2e0833bc210c2f1f0b6feaad38a</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-07-31 17:20:05</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+</record_update>
