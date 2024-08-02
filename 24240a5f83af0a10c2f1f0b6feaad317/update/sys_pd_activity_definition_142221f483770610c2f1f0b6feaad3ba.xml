@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Update Record</label>
+        <name>update_record</name>
+        <outputs/>
+        <source>baf174c8c3c232002841b63b12d3aee4</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-01 05:27:19</sys_created_on>
+        <sys_id>142221f483770610c2f1f0b6feaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Record</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_142221f483770610c2f1f0b6feaad3ba</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-01 05:27:19</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=142221f483770610c2f1f0b6feaad3ba"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4^id=142221f483770610c2f1f0b6feaad3ba"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_baf174c8c3c232002841b63b12d3aee4^id=142221f483770610c2f1f0b6feaad3ba"/>
+</record_update>

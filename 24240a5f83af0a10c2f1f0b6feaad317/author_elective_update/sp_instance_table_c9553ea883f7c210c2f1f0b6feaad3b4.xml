@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,request_type,request_stage,sys_created_by,sys_created_on</field_list>
+        <filter table="x_1346722_magma_request_details">sys_created_by=javascript: gs.getUserName()<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript: gs.getUserName()"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5f453ea883f7c210c2f1f0b6feaad30a</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="Data Table - Instance Definition Wrapper">4ec37dae77c20110d3ef07dc7d5a997b</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 16:52:21</sys_created_on>
+        <sys_id>c9553ea883f7c210c2f1f0b6feaad3b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sp_instance_table_c9553ea883f7c210c2f1f0b6feaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 17:14:14</sys_updated_on>
+        <table>x_1346722_magma_request_details</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=c9553ea883f7c210c2f1f0b6feaad3b4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_instance_table_c9553ea883f7c210c2f1f0b6feaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>number,request_type,request_stage,sys_created_by,sys_created_on</field_list><filter table="x_1346722_magma_request_details">sys_created_by=javascript: gs.getUserName()<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript: gs.getUserName()"/></filter><glyph/><id/><maximum_entries>10</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">5f453ea883f7c210c2f1f0b6feaad30a</sp_column><sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page><sp_widget display_value="Data Table - Instance Definition Wrapper">4ec37dae77c20110d3ef07dc7d5a997b</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 16:52:21</sys_created_on><sys_id>c9553ea883f7c210c2f1f0b6feaad3b4</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>sp_instance_table_c9553ea883f7c210c2f1f0b6feaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 17:14:14</sys_updated_on><table>x_1346722_magma_request_details</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=c9553ea883f7c210c2f1f0b6feaad3b4"/></record_update>]]></payload>
+        <payload_hash>917966100</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ec240a5f83af0a10c2f1f0b6feaad340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 17:14:14</sys_created_on>
+        <sys_id>b95af26c83f7c210c2f1f0b6feaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19109c9032f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 17:14:14</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>bd5af26c4bf7c210ec1ef1549bb9db89</update_guid>
+        <update_guid_history>bd5af26c4bf7c210ec1ef1549bb9db89:917966100,41553ea8e9f7c210aa5ac190b041bab6:1990359512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0bebfae0833bc210c2f1f0b6feaad3bd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 17:21:09</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>10a7fbe9c03b40b089347b6cb4494100</sys_id>
+        <sys_metadata>c9553ea883f7c210c2f1f0b6feaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sp_instance_table_c9553ea883f7c210c2f1f0b6feaad3b4</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_c9553ea883f7c210c2f1f0b6feaad3b4">b95af26c83f7c210c2f1f0b6feaad38a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 17:21:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

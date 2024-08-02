@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1346722_magma.MRD_API</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MRD_API</name>
+        <script><![CDATA[var MRD_API = Class.create();
+MRD_API.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	validalte_date: function(){
+		var date = new GlideDate(this.getParameter('sysparm_date'));
+		var today = new GlideDate();
+
+		
+
+	},
+	userDetails: function(){
+		gs.info('This is from the API');
+		var user = gs.getUserID();
+		var date = new GlideDate();
+		var gr = new GlideRecord('sys_user');
+		gr.get(user);
+		gr.query();
+		gs.info('Date - ' + data + '  |   ' + 'Username - ' +gr.user_name);
+		var uData = {};
+		uData.email = gr.email.toString();
+		uData.contact = gr.mobile_phone.toString();
+		uData.id = gr.user_name.toString();
+		uData.name = gr.getDisplayName.toString();
+		uData.today = date.toString();
+		gs.info('test - '+uData);
+		return 'Hello';
+		// return JSON.stringify(uData);
+	},
+    type: 'MRD_API'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-07-31 13:27:47</sys_created_on>
+        <sys_id>23268ae883f3c210c2f1f0b6feaad3bc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>MRD_API</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_script_include_23268ae883f3c210c2f1f0b6feaad3bc</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-02 12:12:57</sys_updated_on>
+    </sys_script_include>
+</record_update>

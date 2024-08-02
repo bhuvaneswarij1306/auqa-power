@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">48506aacaf77c210c2fa4b44b8d0713c</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1i44n60id0rt5jehcfv8","filterName":"Request State","filterComponentType":"singleselect","datasource":{"type":"table","table":{"id":"x_1346722_magma_request_details","label":"Request Details"},"field":{"id":"request_stage","type":"choice","reference":"","label":"Request Stage"},"choices":[{"value":"","selected":true},{"value":"request_submitted","selected":true},{"value":"approved","selected":true},{"value":"sent_back_to_gis_team","selected":true},{"value":"sent_back_to_inspection","selected":true},{"value":"complete","selected":true}]},"targets":[{"type":"table","table":{"id":"x_1346722_magma_request_details"},"field":{"id":"request_stage","type":"choice","reference":""}}],"defaultSelectedItems":"[]","dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableResetToDefault":false,"enableClearFilter":true,"maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"84506aac7f77c21058d472ad86f5e83c","noDebounce":""}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:41:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c505666483b7c210c2f1f0b6feaad3ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>par_dashboard_widget_c505666483b7c210c2f1f0b6feaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:44:55</sys_updated_on>
+        <visualization/>
+        <w>9</w>
+        <widget_props/>
+        <x>11</x>
+        <y>3</y>
+    </par_dashboard_widget>
+</record_update>

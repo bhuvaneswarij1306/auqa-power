@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Magma_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 13:10:29</sys_created_on>
+        <sys_id>03820aa483f3c210c2f1f0b6feaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Magma_menu_config</sys_name>
+        <sys_package display_value="Magma" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Magma">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_03820aa483f3c210c2f1f0b6feaad3b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 13:10:29</sys_updated_on>
+    </sys_ux_list_menu_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_ux_list_menu_config_03820aa483f3c210c2f1f0b6feaad3b1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config"><sys_ux_list_menu_config action="INSERT_OR_UPDATE"><active>true</active><description/><name>Magma_menu_config</name><sys_class_name>sys_ux_list_menu_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 13:10:29</sys_created_on><sys_id>03820aa483f3c210c2f1f0b6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Magma_menu_config</sys_name><sys_package display_value="Magma" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Magma">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>sys_ux_list_menu_config_03820aa483f3c210c2f1f0b6feaad3b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 13:10:29</sys_updated_on></sys_ux_list_menu_config></record_update>]]></payload>
+        <payload_hash>1762160939</payload_hash>
+        <record_name>Magma_menu_config</record_name>
+        <reverted_from/>
+        <source>ec240a5f83af0a10c2f1f0b6feaad340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 13:10:29</sys_created_on>
+        <sys_id>07820aa483f3c210c2f1f0b6feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19108e9da440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 13:10:29</sys_updated_on>
+        <type>UX List Menu Configuration</type>
+        <update_guid>c7820aa4cdf3c210535c1b8261ace5b2</update_guid>
+        <update_guid_history>c7820aa4cdf3c210535c1b8261ace5b2:1762160939</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:16:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>0e9d43a40eec4768892678581f1cd840</sys_id>
+        <sys_metadata>03820aa483f3c210c2f1f0b6feaad3b1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Magma_menu_config</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_03820aa483f3c210c2f1f0b6feaad3b1</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_03820aa483f3c210c2f1f0b6feaad3b1">07820aa483f3c210c2f1f0b6feaad3b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:16:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

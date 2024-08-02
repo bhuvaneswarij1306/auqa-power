@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description/>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.65",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "528f902e531441598ce57bb568497343": {
+          "id": "528f902e531441598ce57bb568497343",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "256e0027a77047e586049054eaa2f466": {
+          "id": "256e0027a77047e586049054eaa2f466",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3a74f2f69f9d4c42b31e0104857beb0e": {
+          "id": "3a74f2f69f9d4c42b31e0104857beb0e",
+          "stepType": "TextOutput",
+          "name": "Welcome node",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Hello "
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.user.name}}",
+                        "displayValue": "Input Variables➛User➛Name"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ", "
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Welcome to Aqua Power!"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "75ffd7e135a04b2fae50094cf5f1a4ee"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "5eb1c9c9ad184cb1b55dfc027b6f00f9": {
+          "name": "choose the options",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "How Can I help you?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "84a7dc9c4d7c4824a50a2f3c319effe8",
+          "detailDescription": "",
+          "id": "5eb1c9c9ad184cb1b55dfc027b6f00f9",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "cb1c1b09c4a6488d9b9de7faf8ae1202": {
+          "id": "cb1c1b09c4a6488d9b9de7faf8ae1202",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "06e35a9a30fa4b8fbf65613906420fae": {
+          "id": "06e35a9a30fa4b8fbf65613906420fae",
+          "stepType": "TextPrompt",
+          "name": "get ref number to check status",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please Enter the reference number of the request you want to track"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Give Us a minute"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "8cfa91ba55904cb3909abd99e48f5e8d",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "d1e4c03485ea4743aa9365abc0fe33ee": {
+          "id": "d1e4c03485ea4743aa9365abc0fe33ee",
+          "stepType": "LookupRecord",
+          "name": "lookup ref number for status",
+          "condition": {
+            "mode": "glide_query",
+            "value": "number={{vaInputs.get_ref_number_to_check_status}}"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "e67f82ea07c747d9bac8aa34214d2d89"
+        },
+        "9dbd8d9819a74c65aa432832012e6935": {
+          "id": "9dbd8d9819a74c65aa432832012e6935",
+          "stepType": "RecordOutput",
+          "name": "status output",
+          "variableId": "e67f82ea07c747d9bac8aa34214d2d89",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1346722_magma_request_details",
+          "fields": [
+            "number",
+            "request_type",
+            "request_stage",
+            "sys_created_on",
+            "sys_created_by"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "b83681ed79194efc9021d1848c89b80c": {
+          "id": "b83681ed79194efc9021d1848c89b80c",
+          "stepType": "TextOutput",
+          "name": "get inputs",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": "Please give us your input for the following fields"
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "3b29190785874d328db8e26e250cbf38"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "f80d75671ff54ba88062e9bf0c5ac745": {
+          "name": "Request Type",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Select the request type"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "4097b750b42e45dfa6d53f96612aa1a1",
+          "detailDescription": "",
+          "id": "f80d75671ff54ba88062e9bf0c5ac745",
+          "stepType": "ChoicePrompt",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "58e68ac2b4da4656977d0f70df9852a3": {
+          "id": "58e68ac2b4da4656977d0f70df9852a3",
+          "stepType": "DateTimePrompt",
+          "name": "Document Date",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter the document date"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "c6458236dc92411e9d8c14c1bc98fe4a",
+          "detailDescription": ""
+        },
+        "aa5c5369cbfe4643b34f474bf9c42ca7": {
+          "id": "aa5c5369cbfe4643b34f474bf9c42ca7",
+          "stepType": "TextPrompt",
+          "name": "Zone",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter the Zone"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "1098d007a1254bdd8580ca80ec08ec8d",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "76ddbab440b046609d5b14ff65296684": {
+          "id": "76ddbab440b046609d5b14ff65296684",
+          "stepType": "TextPrompt",
+          "name": "Address",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter the Address"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "e42a1e31d92e4998aec42ec5a77a7c5f",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "79b6700271934a6e89edc6db2de64a1b": {
+          "id": "79b6700271934a6e89edc6db2de64a1b",
+          "stepType": "TextPrompt",
+          "name": "Year",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter Year"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "e4e480eee9214a19849573cc24257691",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "58a9b279e85244fc832666239ef4ec9c": {
+          "id": "58a9b279e85244fc832666239ef4ec9c",
+          "stepType": "TextPrompt",
+          "name": "Description",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Please Enter the description"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "80432559e1d04248a421039864ec6393",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "cdc4ca831791406896b1f7974f96e0b1": {
+          "id": "cdc4ca831791406896b1f7974f96e0b1",
+          "stepType": "TextPrompt",
+          "name": "Municipality",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Enter the municipality name"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "3d03abc41d54419d918ba820e653f663",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true
+        },
+        "f94036a50c174483b0d41bd23b9b6c32": {
+          "id": "f94036a50c174483b0d41bd23b9b6c32",
+          "stepType": "CrudAction",
+          "name": "create record",
+          "template": {
+            "query": {
+              "terms": [
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "address",
+                  "expression": "{{vaInputs.address}}",
+                  "deserializedExpression": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "datapill",
+                          "dataPill": {
+                            "value": "{{vaInputs.address}}",
+                            "displayValue": "Input Variables➛Address"
+                          },
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        },
+                        {
+                          "text": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "request_type",
+                  "expression": "{{vaInputs.request_type}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "document_date",
+                  "expression": "{{vaInputs.document_date}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "year",
+                  "expression": "{{vaInputs.year}}"
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "description",
+                  "expression": "{{vaInputs.description}}",
+                  "deserializedExpression": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "datapill",
+                          "dataPill": {
+                            "value": "{{vaInputs.description}}",
+                            "displayValue": "Input Variables➛Description"
+                          },
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        },
+                        {
+                          "text": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "municipality",
+                  "expression": "{{vaInputs.municipality}}",
+                  "deserializedExpression": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "datapill",
+                          "dataPill": {
+                            "value": "{{vaInputs.municipality}}",
+                            "displayValue": "Input Variables➛Municipality"
+                          },
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        },
+                        {
+                          "text": ""
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "prefix": "",
+                  "operator": "=",
+                  "operand": "zone",
+                  "expression": "{{vaInputs.zone}}",
+                  "deserializedExpression": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "text": ""
+                        },
+                        {
+                          "type": "datapill",
+                          "dataPill": {
+                            "value": "{{vaInputs.zone}}",
+                            "displayValue": "Input Variables➛Zone"
+                          },
+                          "children": [
+                            {
+                              "text": ""
+                            }
+                          ]
+                        },
+                        {
+                          "text": ""
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "queryString": "address={{vaInputs.address}}^request_type={{vaInputs.request_type}}^document_date={{vaInputs.document_date}}^year={{vaInputs.year}}^description={{vaInputs.description}}^municipality={{vaInputs.municipality}}^zone={{vaInputs.zone}}"
+          },
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "attachments": [
+            {
+              "value": "",
+              "mode": "simple"
+            }
+          ],
+          "variableId": "4abbe668619b403a92ce944dce8f1939"
+        },
+        "18e0da702bfc4505b247431d1ce6e375": {
+          "id": "18e0da702bfc4505b247431d1ce6e375",
+          "stepType": "RecordOutput",
+          "name": "show created record",
+          "variableId": "4abbe668619b403a92ce944dce8f1939",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_1346722_magma_request_details",
+          "fields": [
+            "number",
+            "sys_created_on",
+            "sys_created_by"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "04e44e94b7414fefa348cf35752ced53",
+          "edgeType": "Edge",
+          "source": "528f902e531441598ce57bb568497343",
+          "target": "3a74f2f69f9d4c42b31e0104857beb0e",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f4f3ff86947c46deb430441fc1b25e5d",
+          "edgeType": "Edge",
+          "source": "3a74f2f69f9d4c42b31e0104857beb0e",
+          "target": "5eb1c9c9ad184cb1b55dfc027b6f00f9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0d956d139b7d4d3991434050f4c5a522",
+          "edgeType": "Edge",
+          "source": "5eb1c9c9ad184cb1b55dfc027b6f00f9",
+          "target": "cb1c1b09c4a6488d9b9de7faf8ae1202",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8ea48e9dcadc4cdc84041436b25c3f8a",
+          "edgeType": "Branch",
+          "source": "cb1c1b09c4a6488d9b9de7faf8ae1202",
+          "target": "06e35a9a30fa4b8fbf65613906420fae",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choose_the_options=Track My Status",
+            "mode": "query"
+          },
+          "label": "Track my status"
+        },
+        {
+          "id": "dc4f43847d1a418682356d6a1587f623",
+          "edgeType": "Edge",
+          "source": "06e35a9a30fa4b8fbf65613906420fae",
+          "target": "d1e4c03485ea4743aa9365abc0fe33ee",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d6df6ca6fccb4fe787546e46a18a7832",
+          "edgeType": "Edge",
+          "source": "d1e4c03485ea4743aa9365abc0fe33ee",
+          "target": "9dbd8d9819a74c65aa432832012e6935",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d8f190a724db41ee8282763920170c4a",
+          "edgeType": "Edge",
+          "source": "9dbd8d9819a74c65aa432832012e6935",
+          "target": "256e0027a77047e586049054eaa2f466",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "81e96701f7ec4c098a525747d27523d0",
+          "edgeType": "Branch",
+          "source": "cb1c1b09c4a6488d9b9de7faf8ae1202",
+          "target": "b83681ed79194efc9021d1848c89b80c",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choose_the_options=New Request Creation",
+            "mode": "query"
+          },
+          "label": "New Request Creation"
+        },
+        {
+          "id": "2b5aa96d1d3a4521bc0ab099f7f15ebe",
+          "edgeType": "Edge",
+          "source": "b83681ed79194efc9021d1848c89b80c",
+          "target": "f80d75671ff54ba88062e9bf0c5ac745",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "423ec36856014059851bf5736648b444",
+          "edgeType": "Edge",
+          "source": "f80d75671ff54ba88062e9bf0c5ac745",
+          "target": "58e68ac2b4da4656977d0f70df9852a3",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "17a7331772e345919573367e851e278c",
+          "edgeType": "Edge",
+          "source": "58e68ac2b4da4656977d0f70df9852a3",
+          "target": "aa5c5369cbfe4643b34f474bf9c42ca7",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "57680cfec7fb45cbafb807d27cb75b88",
+          "edgeType": "Edge",
+          "source": "aa5c5369cbfe4643b34f474bf9c42ca7",
+          "target": "76ddbab440b046609d5b14ff65296684",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0c209a58497a48f9b783de1912c4420d",
+          "edgeType": "Edge",
+          "source": "76ddbab440b046609d5b14ff65296684",
+          "target": "79b6700271934a6e89edc6db2de64a1b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "17ac20c67abf40d0b284da67e50177a9",
+          "edgeType": "Edge",
+          "source": "79b6700271934a6e89edc6db2de64a1b",
+          "target": "cdc4ca831791406896b1f7974f96e0b1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b5de4c0fde8146d3aea90a5dc35d95ed",
+          "edgeType": "Edge",
+          "source": "cdc4ca831791406896b1f7974f96e0b1",
+          "target": "58a9b279e85244fc832666239ef4ec9c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "0e4d7912e7034bf5a1ed1be5f9f99aef",
+          "edgeType": "Edge",
+          "source": "58a9b279e85244fc832666239ef4ec9c",
+          "target": "f94036a50c174483b0d41bd23b9b6c32",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "5cdaa6438129486092cd28f74c83067f",
+          "edgeType": "Edge",
+          "source": "f94036a50c174483b0d41bd23b9b6c32",
+          "target": "18e0da702bfc4505b247431d1ce6e375",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9444c6b0e8b44befbbdfbb570e19be34",
+          "edgeType": "Edge",
+          "source": "18e0da702bfc4505b247431d1ce6e375",
+          "target": "256e0027a77047e586049054eaa2f466",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "58c12146a98b4252bd28da00e2d8102d",
+          "edgeType": "Branch",
+          "source": "cb1c1b09c4a6488d9b9de7faf8ae1202",
+          "target": "256e0027a77047e586049054eaa2f466",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.choose_the_options=Update My Request",
+            "mode": "query"
+          },
+          "label": "Update the record"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "84a7dc9c4d7c4824a50a2f3c319effe8": {
+      "id": "84a7dc9c4d7c4824a50a2f3c319effe8",
+      "name": "choose_the_options",
+      "label": "Choose The Options",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Track My Status",
+          "value": "Track My Status"
+        },
+        {
+          "label": "New Request Creation",
+          "value": "New Request Creation"
+        },
+        {
+          "label": "Update My Request",
+          "value": "Update My Request",
+          "checked": true,
+          "meta": {}
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "5eb1c9c9ad184cb1b55dfc027b6f00f9",
+      "isHidden": false
+    },
+    "8cfa91ba55904cb3909abd99e48f5e8d": {
+      "id": "8cfa91ba55904cb3909abd99e48f5e8d",
+      "name": "get_ref_number_to_check_status",
+      "label": "Get Ref Number To Check Status",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMjQ1NDIwNzY1MSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "06e35a9a30fa4b8fbf65613906420fae",
+      "isHidden": false
+    },
+    "e67f82ea07c747d9bac8aa34214d2d89": {
+      "id": "e67f82ea07c747d9bac8aa34214d2d89",
+      "name": "lookup_ref_number_for_status",
+      "label": "Lookup Ref Number For Status",
+      "varType": "reference",
+      "table": "x_1346722_magma_request_details",
+      "category": "vaInputs",
+      "nodeId": "9dbd8d9819a74c65aa432832012e6935",
+      "isHidden": false
+    },
+    "4097b750b42e45dfa6d53f96612aa1a1": {
+      "id": "4097b750b42e45dfa6d53f96612aa1a1",
+      "name": "request_type",
+      "label": "Request Type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Water",
+          "value": "Water"
+        },
+        {
+          "label": "Electricity",
+          "value": "Electricity"
+        }
+      ],
+      "category": "vaInputs",
+      "nodeId": "f80d75671ff54ba88062e9bf0c5ac745",
+      "isHidden": false
+    },
+    "c6458236dc92411e9d8c14c1bc98fe4a": {
+      "id": "c6458236dc92411e9d8c14c1bc98fe4a",
+      "name": "document_date",
+      "label": "Document Date",
+      "varType": "date_time",
+      "secure": false,
+      "category": "vaInputs",
+      "mode": "date_time",
+      "nodeId": "58e68ac2b4da4656977d0f70df9852a3",
+      "isHidden": false
+    },
+    "1098d007a1254bdd8580ca80ec08ec8d": {
+      "id": "1098d007a1254bdd8580ca80ec08ec8d",
+      "name": "zone",
+      "label": "Zone",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMjQ1NzY1OTk2NiBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "aa5c5369cbfe4643b34f474bf9c42ca7",
+      "isHidden": false
+    },
+    "e42a1e31d92e4998aec42ec5a77a7c5f": {
+      "id": "e42a1e31d92e4998aec42ec5a77a7c5f",
+      "name": "address",
+      "label": "Address",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMjQ1NzgwMjQ2OCBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "76ddbab440b046609d5b14ff65296684",
+      "isHidden": false
+    },
+    "e4e480eee9214a19849573cc24257691": {
+      "id": "e4e480eee9214a19849573cc24257691",
+      "name": "year",
+      "label": "Year",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMjQ1Nzk5MTE0OSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "79b6700271934a6e89edc6db2de64a1b",
+      "isHidden": false
+    },
+    "80432559e1d04248a421039864ec6393": {
+      "id": "80432559e1d04248a421039864ec6393",
+      "name": "description",
+      "label": "Description",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMjQ1ODAxMzI2NyBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "58a9b279e85244fc832666239ef4ec9c",
+      "isHidden": false
+    },
+    "3d03abc41d54419d918ba820e653f663": {
+      "id": "3d03abc41d54419d918ba820e653f663",
+      "name": "municipality",
+      "label": "Municipality",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMjQ1ODIwNDA1MiBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "cdc4ca831791406896b1f7974f96e0b1",
+      "isHidden": false
+    },
+    "4abbe668619b403a92ce944dce8f1939": {
+      "id": "4abbe668619b403a92ce944dce8f1939",
+      "name": "create_record",
+      "label": "Create Record",
+      "varType": "reference",
+      "table": "x_1346722_magma_request_details",
+      "inactive": false,
+      "category": "vaInputs",
+      "nodeId": "18e0da702bfc4505b247431d1ce6e375",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Aqua Power Chat</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Aqua Power Chat</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 19:07:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f344d7a083bbc210c2f1f0b6feaad391</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Aqua Power Chat</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_cb_topic_f344d7a083bbc210c2f1f0b6feaad391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 20:47:29</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=f344d7a083bbc210c2f1f0b6feaad391"/>
+</record_update>

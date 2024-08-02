@@ -20,12 +20,20 @@
         <published_ref/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	var isNew = g_form.isNewRecord();
+	// var ga = new GlideAjax('x_1346722_magma.MRD_API');
+	// ga.addParam('sysparm_name','userDetails');
+	// // ga.addParam('sysparm', g_user.userID());
+	// ga.getXMLAnswer(callback);
 
-	var uEmail = g_user.getClientData('email');
-	var uMobile = g_user.getClientData('contact');
-	alert('test' + uEmail, uMobile);
+	// var ga = new GlideAjax('global.artScriptFunction');
+	// ga.addParam('sysparm', 'validateDate');
+	// ga.getXMLAnswer(callback);
 
+	// function callback(response){
+	// 	var answer = JSON.parse(response);
+	// 	alert(response);
+	// 	alert(answer);
+	// }
 
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -34,15 +42,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ea1472c833bc210c2f1f0b6feaad358</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>APR: On Load</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>catalog_script_client_2ea1472c833bc210c2f1f0b6feaad358</sys_update_name>
-        <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-08-02 04:38:11</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 12:53:35</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

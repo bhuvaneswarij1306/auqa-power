@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_development</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-07-31 17:44:15</sys_created_on>
+        <sys_id>1d3183a8833bc210c2f1f0b6feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Development View</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ui_view_1d3183a8833bc210c2f1f0b6feaad33b</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-07-31 17:44:15</sys_updated_on>
+        <title>Development View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1346722_magma.Audience for list c2bb4ea08337c210c2f1f0b6feaad369</api_name>
+        <description>Audience for the list: Reviewer Team Approval for the Workspace: Magma</description>
+        <name>Audience for list c2bb4ea08337c210c2f1f0b6feaad369</name>
+        <role_names/>
+        <roles name="x_1346722_magma.review_team">13653da083b3c210c2f1f0b6feaad3c9</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 13:53:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff7c4e608337c210c2f1f0b6feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for list c2bb4ea08337c210c2f1f0b6feaad369</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ux_applicability_ff7c4e608337c210c2f1f0b6feaad396</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 13:53:56</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

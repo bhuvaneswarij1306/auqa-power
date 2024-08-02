@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>workspace-aqua-power-0</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:20:33</sys_created_on>
+        <sys_id>0c506aacb777c210497082d62ab40a39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workspace Aqua Power 0</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ui_view_0c506aacb777c210497082d62ab40a39</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:20:33</sys_updated_on>
+        <title>Workspace Aqua Power 0</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

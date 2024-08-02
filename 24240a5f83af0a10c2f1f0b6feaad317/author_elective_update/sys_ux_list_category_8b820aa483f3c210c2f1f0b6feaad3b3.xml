@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="DELETE">
+        <active>true</active>
+        <configuration display_value="Magma_menu_config">03820aa483f3c210c2f1f0b6feaad3b1</configuration>
+        <description/>
+        <order>100</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 13:10:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b820aa483f3c210c2f1f0b6feaad3b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Magma" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Magma">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ux_list_category_8b820aa483f3c210c2f1f0b6feaad3b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 13:10:29</sys_updated_on>
+        <title>Approval</title>
+    </sys_ux_list_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_ux_list_category_8b820aa483f3c210c2f1f0b6feaad3b3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category"><sys_ux_list_category action="INSERT_OR_UPDATE"><active>true</active><configuration display_value="Magma_menu_config">03820aa483f3c210c2f1f0b6feaad3b1</configuration><description/><order>100</order><sys_class_name>sys_ux_list_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 13:10:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8b820aa483f3c210c2f1f0b6feaad3b3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approval</sys_name><sys_overrides/><sys_package display_value="Magma" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Magma">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>sys_ux_list_category_8b820aa483f3c210c2f1f0b6feaad3b3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 13:10:29</sys_updated_on><title>Approval</title></sys_ux_list_category></record_update>]]></payload>
+        <payload_hash>1727813705</payload_hash>
+        <record_name>Approval</record_name>
+        <reverted_from/>
+        <source>ec240a5f83af0a10c2f1f0b6feaad340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 13:10:29</sys_created_on>
+        <sys_id>47820aa483f3c210c2f1f0b6feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19108e9da6a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 13:10:29</sys_updated_on>
+        <type>UX List Category</type>
+        <update_guid>0b820aa4bbf3c210549008269e1e5fb5</update_guid>
+        <update_guid_history>0b820aa4bbf3c210549008269e1e5fb5:1727813705</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:16:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_category">sys_ux_list_category</sys_db_object>
+        <sys_id>5e573eb3d2f0472a89afb29aecfb5d31</sys_id>
+        <sys_metadata>8b820aa483f3c210c2f1f0b6feaad3b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sys_ux_list_category_8b820aa483f3c210c2f1f0b6feaad3b3</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_category_8b820aa483f3c210c2f1f0b6feaad3b3">47820aa483f3c210c2f1f0b6feaad3b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:16:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

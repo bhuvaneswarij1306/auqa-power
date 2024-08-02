@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <activity_type/>
+        <badge/>
+        <category display_value="Generic Activity">b51cee574320311089db5fb208b8f269</category>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Wait For Condition</label>
+        <name>wait_for_condition</name>
+        <outputs/>
+        <source>8bb9a8160b10030085c083eb37673aec</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-01 06:45:09</sys_created_on>
+        <sys_id>e4f3f5f083f70610c2f1f0b6feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wait For Condition</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_e4f3f5f083f70610c2f1f0b6feaad3a9</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-01 06:45:09</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=e4f3f5f083f70610c2f1f0b6feaad3a9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_8bb9a8160b10030085c083eb37673aec^id=e4f3f5f083f70610c2f1f0b6feaad3a9"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_8bb9a8160b10030085c083eb37673aec^id=e4f3f5f083f70610c2f1f0b6feaad3a9"/>
+</record_update>
