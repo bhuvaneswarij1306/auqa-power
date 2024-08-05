@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>This Action For Playbook for get Status &amp; Stage Of Process</description>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_status__stage</internal_name>
+        <label_cache>[{"name":"{{action.record}}","label":"action➛Record","type":"action","ref":"","reference_display":"Request Details","base_type":"reference","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.record.request_stage}}","label":"action➛Record➛Request Stage","type":"action","ref":"","reference_display":"Request Stage","base_type":"choice","parent_table_name":"x_1346722_magma_request_details","column_name":"request_stage","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"label":"Initiated","used":false,"rawLabel":"Initiated","selected":false,"missing":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"GIS Review","used":false,"rawLabel":"GIS Review","selected":false,"missing":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Inspection Review","used":false,"rawLabel":"Inspection Review","selected":false,"missing":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Review Team","used":false,"rawLabel":"Review Team","selected":false,"missing":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Completed","used":false,"rawLabel":"Completed","selected":false,"missing":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Rejected","used":false,"rawLabel":"Rejected","selected":false,"missing":false,"image":"","reference":false,"value":"6","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Re-Submit","used":false,"rawLabel":"Re-Submit","selected":false,"missing":false,"image":"","reference":false,"value":"7","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Draft","used":false,"rawLabel":"Draft","selected":false,"missing":false,"image":"","reference":false,"value":"8","parameters":{"name":"x_1346722_magma_request_details"}}],"attributes":{}},{"name":"{{action.record.request_status}}","label":"action➛Record➛Request Status","type":"action","ref":"","reference_display":"Request Status","base_type":"choice","parent_table_name":"x_1346722_magma_request_details","column_name":"request_status","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"label":"Submitted","used":false,"rawLabel":"Submitted","selected":false,"missing":false,"image":"","reference":false,"value":"1","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Approved by GIS","used":false,"rawLabel":"Approved by GIS","selected":false,"missing":false,"image":"","reference":false,"value":"2","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Rejected by GIS","used":false,"rawLabel":"Rejected by GIS","selected":false,"missing":false,"image":"","reference":false,"value":"3","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Sent back by GIS","used":false,"rawLabel":"Sent back by GIS","selected":false,"missing":false,"image":"","reference":false,"value":"4","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Approved by Inspection","used":false,"rawLabel":"Approved by Inspection","selected":false,"missing":false,"image":"","reference":false,"value":"5","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Rejected by Inspection","used":false,"rawLabel":"Rejected by Inspection","selected":false,"missing":false,"image":"","reference":false,"value":"6","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Sent back by Inspection","used":false,"rawLabel":"Sent back by Inspection","selected":false,"missing":false,"image":"","reference":false,"value":"7","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Approved by Review Team","used":false,"rawLabel":"Approved by Review Team","selected":false,"missing":false,"image":"","reference":false,"value":"8","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Rejected by Review Team","used":false,"rawLabel":"Rejected by Review Team","selected":false,"missing":false,"image":"","reference":false,"value":"9","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Sent back by Review Team","used":false,"rawLabel":"Sent back by Review Team","selected":false,"missing":false,"image":"","reference":false,"value":"10","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Completed","used":false,"rawLabel":"Completed","selected":false,"missing":false,"image":"","reference":false,"value":"11","parameters":{"name":"x_1346722_magma_request_details"}},{"label":"Re-Submitted","used":false,"rawLabel":"Re-Submitted","selected":false,"missing":false,"image":"","reference":false,"value":"12","parameters":{"name":"x_1346722_magma_request_details"}}],"attributes":{}},{"name":"{{step[2d04a7ee-3447-4c93-9bb1-60c5ea36fddf].status}}","label":"step➛Script step➛Status","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"{{step[2d04a7ee-3447-4c93-9bb1-60c5ea36fddf].stage}}","label":"step➛Script step➛Stage","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Status &amp; Stage</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:18:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28647f4e83fbca10c2f1f0b6feaad342</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Get Status &amp; Stage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_28647f4e83fbca10c2f1f0b6feaad342</sys_update_name>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:33:34</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=28647f4e83fbca10c2f1f0b6feaad342"/>
+    <sys_variable_value action="delete_multiple" query="document_key=28647f4e83fbca10c2f1f0b6feaad342"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>28647f4e83fbca10c2f1f0b6feaad342</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>a7553bce83fbca10c2f1f0b6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">1f553bce83fbca10c2f1f0b6feaad348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>28647f4e83fbca10c2f1f0b6feaad342</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>e3553bce83fbca10c2f1f0b6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">2f553bce83fbca10c2f1f0b6feaad35e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=28647f4e83fbca10c2f1f0b6feaad342"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stage</field>
+        <id>28647f4e83fbca10c2f1f0b6feaad342</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:25:07</sys_created_on>
+        <sys_id>5ad5f302833fca10c2f1f0b6feaad3fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:33:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</table>
+        <value>{{action.record.request_stage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>28647f4e83fbca10c2f1f0b6feaad342</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:25:07</sys_created_on>
+        <sys_id>1ed5f302833fca10c2f1f0b6feaad3fb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:33:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</table>
+        <value>{{action.record.request_status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>28647f4e83fbca10c2f1f0b6feaad342</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>63553bce83fbca10c2f1f0b6feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>28647f4e83fbca10c2f1f0b6feaad342</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>af553bce83fbca10c2f1f0b6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=28647f4e83fbca10c2f1f0b6feaad342^sys_idNOT IN17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</action>
+        <cid>2d04a7ee-3447-4c93-9bb1-60c5ea36fddf</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>17553bce83fbca10c2f1f0b6feaad339</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:32:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>17553bce83fbca10c2f1f0b6feaad339</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>57553bce83fbca10c2f1f0b6feaad346</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:32:02</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+// ... code ...&#13;
+   outputs.stage = inputs.request_stage;&#13;
+   outputs.status = inputs.request_status;&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>17553bce83fbca10c2f1f0b6feaad339</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>db553bce83fbca10c2f1f0b6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>17553bce83fbca10c2f1f0b6feaad339</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>53553bce83fbca10c2f1f0b6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>17553bce83fbca10c2f1f0b6feaad339</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:30:29</sys_created_on>
+        <sys_id>3c17f382833fca10c2f1f0b6feaad393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:30:29</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_17553bce83fbca10c2f1f0b6feaad339</table>
+        <value>{{action.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>17553bce83fbca10c2f1f0b6feaad339</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>5b553bce83fbca10c2f1f0b6feaad345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>stage</field>
+        <id>17553bce83fbca10c2f1f0b6feaad339</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:32:02</sys_created_on>
+        <sys_id>e7673f82833fca10c2f1f0b6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:32:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_17553bce83fbca10c2f1f0b6feaad339</table>
+        <value>{{action.record.request_stage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>17553bce83fbca10c2f1f0b6feaad339</id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:32:02</sys_created_on>
+        <sys_id>2b673f82833fca10c2f1f0b6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:32:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_17553bce83fbca10c2f1f0b6feaad339</table>
+        <value>{{action.record.request_status}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_17553bce83fbca10c2f1f0b6feaad339^id=17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=17553bce83fbca10c2f1f0b6feaad339^sys_idNOT IN67673f82833fca10c2f1f0b6feaad34e,a3673f82833fca10c2f1f0b6feaad351"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">17553bce83fbca10c2f1f0b6feaad339</model>
+        <model_id>17553bce83fbca10c2f1f0b6feaad339</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_17553bce83fbca10c2f1f0b6feaad339</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:32:01</sys_created_on>
+        <sys_id>67673f82833fca10c2f1f0b6feaad34e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:32:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">17553bce83fbca10c2f1f0b6feaad339</model>
+        <model_id>17553bce83fbca10c2f1f0b6feaad339</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_17553bce83fbca10c2f1f0b6feaad339</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:32:01</sys_created_on>
+        <sys_id>a3673f82833fca10c2f1f0b6feaad351</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:33:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=17553bce83fbca10c2f1f0b6feaad339^sys_idNOT IN06d5f302833fca10c2f1f0b6feaad3e4,4ad5f302833fca10c2f1f0b6feaad3df"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0b6b3709-bce4-4e72-9b4e-f18de6389251</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Stage</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">17553bce83fbca10c2f1f0b6feaad339</model>
+        <model_id>17553bce83fbca10c2f1f0b6feaad339</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_17553bce83fbca10c2f1f0b6feaad339</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:25:06</sys_created_on>
+        <sys_id>06d5f302833fca10c2f1f0b6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:25:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=74892de6-88bf-483e-a190-9a490601a3b1</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">17553bce83fbca10c2f1f0b6feaad339</model>
+        <model_id>17553bce83fbca10c2f1f0b6feaad339</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_17553bce83fbca10c2f1f0b6feaad339</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:25:06</sys_created_on>
+        <sys_id>4ad5f302833fca10c2f1f0b6feaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:25:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17553bce83fbca10c2f1f0b6feaad339"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_17553bce83fbca10c2f1f0b6feaad339^sys_idNOT IN06d5f302833fca10c2f1f0b6feaad3e3,0ed5f302833fca10c2f1f0b6feaad3e6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_17553bce83fbca10c2f1f0b6feaad339</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:25:06</sys_created_on>
+        <sys_id>06d5f302833fca10c2f1f0b6feaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:25:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stage</element>
+        <help/>
+        <hint/>
+        <label>Stage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_17553bce83fbca10c2f1f0b6feaad339</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:25:06</sys_created_on>
+        <sys_id>0ed5f302833fca10c2f1f0b6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:25:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=28647f4e83fbca10c2f1f0b6feaad342^sys_idNOT IN57557f4e83fbca10c2f1f0b6feaad3d9"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=2f4a6188-75f1-4cc7-8262-36ced73e35d8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1346722_magma_request_details</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</model>
+        <model_id>28647f4e83fbca10c2f1f0b6feaad342</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1346722_magma_request_details">x_1346722_magma_request_details</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>57557f4e83fbca10c2f1f0b6feaad3d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=57557f4e83fbca10c2f1f0b6feaad3d9"/>
+    <sys_hub_action_output action="delete_multiple" query="model=28647f4e83fbca10c2f1f0b6feaad342^sys_idNOT IN1f553bce83fbca10c2f1f0b6feaad348,2f553bce83fbca10c2f1f0b6feaad35e,63553bce83fbca10c2f1f0b6feaad372,ab553bce83fbca10c2f1f0b6feaad35a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=66a5cd46-0540-47c6-9b7f-364817d717df</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</model>
+        <model_id>28647f4e83fbca10c2f1f0b6feaad342</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>1f553bce83fbca10c2f1f0b6feaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1f553bce83fbca10c2f1f0b6feaad348"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f553bce83fbca10c2f1f0b6feaad348"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=48fa2553-2437-403d-9e27-8ea447bbcc6b,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</model>
+        <model_id>28647f4e83fbca10c2f1f0b6feaad342</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>2f553bce83fbca10c2f1f0b6feaad35e</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:33:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2f553bce83fbca10c2f1f0b6feaad35e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2f553bce83fbca10c2f1f0b6feaad35e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=91ec34d9-c4b4-45ea-8203-de498e94c407</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>stage</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Stage</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</model>
+        <model_id>28647f4e83fbca10c2f1f0b6feaad342</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>63553bce83fbca10c2f1f0b6feaad372</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:25:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=63553bce83fbca10c2f1f0b6feaad372"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=63553bce83fbca10c2f1f0b6feaad372^sys_idNOT INa7553bce83fbca10c2f1f0b6feaad378"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>stage</input_name>
+        <instance>63553bce83fbca10c2f1f0b6feaad372</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable1":{"scriptActive":false}}</script>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>a7553bce83fbca10c2f1f0b6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=6e79775e-be1a-4665-bad7-29a91d4e3c60</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Status</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</model>
+        <model_id>28647f4e83fbca10c2f1f0b6feaad342</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>ab553bce83fbca10c2f1f0b6feaad35a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:25:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ab553bce83fbca10c2f1f0b6feaad35a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ab553bce83fbca10c2f1f0b6feaad35a^sys_idNOT IN2f553bce83fbca10c2f1f0b6feaad377"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>status</input_name>
+        <instance>ab553bce83fbca10c2f1f0b6feaad35a</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>2f553bce83fbca10c2f1f0b6feaad377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=28647f4e83fbca10c2f1f0b6feaad342"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=28647f4e83fbca10c2f1f0b6feaad342^sys_idNOT INeb553bce83fbca10c2f1f0b6feaad37b"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Status &amp; Stage">28647f4e83fbca10c2f1f0b6feaad342</action_type_id>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>eb553bce83fbca10c2f1f0b6feaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=eb553bce83fbca10c2f1f0b6feaad37b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_28647f4e83fbca10c2f1f0b6feaad342^sys_idNOT IN1b553bce83fbca10c2f1f0b6feaad336"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>record</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:00</sys_created_on>
+        <sys_id>1b553bce83fbca10c2f1f0b6feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_28647f4e83fbca10c2f1f0b6feaad342"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342^sys_idNOT IN27553bce83fbca10c2f1f0b6feaad375,2f553bce83fbca10c2f1f0b6feaad35d,ab553bce83fbca10c2f1f0b6feaad359,ab553bce83fbca10c2f1f0b6feaad364"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>stage</element>
+        <help/>
+        <hint/>
+        <label>Stage</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>27553bce83fbca10c2f1f0b6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>2f553bce83fbca10c2f1f0b6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>ab553bce83fbca10c2f1f0b6feaad359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>nauman.ansari</sys_created_by>
+        <sys_created_on>2024-08-05 13:23:01</sys_created_on>
+        <sys_id>ab553bce83fbca10c2f1f0b6feaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nauman.ansari</sys_updated_by>
+        <sys_updated_on>2024-08-05 13:23:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_28647f4e83fbca10c2f1f0b6feaad342"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=28647f4e83fbca10c2f1f0b6feaad342"/>
+</record_update>

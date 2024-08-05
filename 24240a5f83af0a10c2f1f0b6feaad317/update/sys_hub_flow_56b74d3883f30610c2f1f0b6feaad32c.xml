@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=36054000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56b74d3883f30610c2f1f0b6feaad32c</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>GIS Send Back Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_hub_flow_56b74d3883f30610c2f1f0b6feaad32c</sys_update_name>
-        <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-08-01 13:32:56</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 04:43:03</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=56b74d3883f30610c2f1f0b6feaad32c"/>
@@ -76,16 +76,16 @@
         <table>x_1346722_magma_request_details</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>56b74d3883f30610c2f1f0b6feaad32c</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>nauman.ansari</sys_created_by>
         <sys_created_on>2024-08-01 13:32:55</sys_created_on>
         <sys_id>ed4117f083ff0610c2f1f0b6feaad380</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-08-01 13:32:55</sys_updated_on>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 04:43:06</sys_updated_on>
         <trigger display_value="">254117f083ff0610c2f1f0b6feaad380</trigger>
     </sys_trigger_runner_mapping>
     <sys_trigger_runner_mapping action="delete_multiple" query="identifier=56b74d3883f30610c2f1f0b6feaad32c^sys_idNOT INed4117f083ff0610c2f1f0b6feaad380"/>

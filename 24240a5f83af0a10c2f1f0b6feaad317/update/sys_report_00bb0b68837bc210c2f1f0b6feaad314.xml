@@ -48,7 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>sys_created_on,sys_created_by,sys_updated_on,sys_updated_by,sys_mod_count</field_list>
-        <filter table="x_1346722_magma_request_details">request_type=E\electricity<item display_value="Electricity" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="E\electricity"/>
+        <filter table="x_1346722_magma_request_details">request_type=E\electricity<item display_value="E\electricity" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="E\electricity"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{"$COUNT_FIELD$,AGGREGATION":{"decimalPrecision":2,"groupingUsed":true,"roundingMode":"HALF_UP","metricPrefixSymbolUsed":false,"showOriginalNumberInTooltip":true,"addValueInTooltip":true}}}</formatting_configuration>
         <from/>

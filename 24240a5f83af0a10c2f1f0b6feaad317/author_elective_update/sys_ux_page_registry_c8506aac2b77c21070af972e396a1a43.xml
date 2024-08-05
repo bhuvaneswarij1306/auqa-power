@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>8c506aacad77c2109a0792609e0d3743</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>aqua-power</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:20:33</sys_created_on>
+        <sys_id>c8506aac2b77c21070af972e396a1a43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aqua Power</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ux_page_registry_c8506aac2b77c21070af972e396a1a43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:20:33</sys_updated_on>
+        <title>Aqua Power</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_ux_page_registry_c8506aac2b77c21070af972e396a1a43</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>8c506aacad77c2109a0792609e0d3743</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>aqua-power</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 15:20:33</sys_created_on><sys_id>c8506aac2b77c21070af972e396a1a43</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Aqua Power</sys_name><sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>sys_ux_page_registry_c8506aac2b77c21070af972e396a1a43</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 15:20:33</sys_updated_on><title>Aqua Power</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1948442528</payload_hash>
+        <record_name>Aqua Power</record_name>
+        <reverted_from/>
+        <source>5876643193220210ee61f5befaba10ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-03 00:21:58</sys_created_on>
+        <sys_id>f3f02eed83bb0a10c2f1f0b6feaad3e6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fdb7968700000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>b3f02eed51bb0a1087a5fe2bd2b42de6</update_guid>
+        <update_guid_history>b3f02eed51bb0a1087a5fe2bd2b42de6:1948442528</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 17:57:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0dcb048dbfa548809dec295152164b71</sys_id>
+        <sys_metadata>c8506aac2b77c21070af972e396a1a43</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aqua Power</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_c8506aac2b77c21070af972e396a1a43</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_c8506aac2b77c21070af972e396a1a43">f3f02eed83bb0a10c2f1f0b6feaad3e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 17:57:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

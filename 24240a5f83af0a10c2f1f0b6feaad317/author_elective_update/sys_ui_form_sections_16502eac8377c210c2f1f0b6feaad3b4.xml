@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="16502eac8377c210c2f1f0b6feaad3b4" sys_domain="global" table="x_1346722_magma_request_details" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 15:20:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a502eac8377c210c2f1f0b6feaad3b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1346722_magma_request_details" name="x_1346722_magma_request_details" sys_domain="global" view="0c506aacb777c210497082d62ab40a39">16502eac8377c210c2f1f0b6feaad3b4</sys_ui_form>
+            <sys_ui_section caption="Owner Details" display_value="Owner Details" name="x_1346722_magma_request_details" sys_domain="global" view="0c506aacb777c210497082d62ab40a39">52502eac8377c210c2f1f0b6feaad3b8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 15:20:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1346722_magma_request_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-07-31 15:20:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16502eac8377c210c2f1f0b6feaad3b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1346722_magma_request_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+            <sys_update_name>sys_ui_form_sections_16502eac8377c210c2f1f0b6feaad3b4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-07-31 15:20:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Aqua Power 0" name="workspace-aqua-power-0">0c506aacb777c210497082d62ab40a39</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sys_ui_form_sections_16502eac8377c210c2f1f0b6feaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="16502eac8377c210c2f1f0b6feaad3b4" sys_domain="global" table="x_1346722_magma_request_details" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 15:20:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5a502eac8377c210c2f1f0b6feaad3b9</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_1346722_magma_request_details" name="x_1346722_magma_request_details" sys_domain="global" view="0c506aacb777c210497082d62ab40a39">16502eac8377c210c2f1f0b6feaad3b4</sys_ui_form><sys_ui_section caption="Owner Details" display_value="Owner Details" name="x_1346722_magma_request_details" sys_domain="global" view="0c506aacb777c210497082d62ab40a39">52502eac8377c210c2f1f0b6feaad3b8</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 15:20:41</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_1346722_magma_request_details</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 15:20:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>16502eac8377c210c2f1f0b6feaad3b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1346722_magma_request_details</sys_name><sys_overrides/><sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>sys_ui_form_sections_16502eac8377c210c2f1f0b6feaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-31 15:20:41</sys_updated_on><sys_user/><view display_value="Workspace Aqua Power 0" name="workspace-aqua-power-0">0c506aacb777c210497082d62ab40a39</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>-1248531370</payload_hash>
+        <record_name>Request Details</record_name>
+        <reverted_from/>
+        <source>ec240a5f83af0a10c2f1f0b6feaad340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:20:41</sys_created_on>
+        <sys_id>de502eac8377c210c2f1f0b6feaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19109610dd10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-31 15:20:41</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>96502eac7377c21063cbfddeab0475cb</update_guid>
+        <update_guid_history>96502eac7377c21063cbfddeab0475cb:-1248531370,56502eac2b77c210885941ec422d69b6:1912580516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 17:57:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>30d98362271d49748bd549e5e4319a90</sys_id>
+        <sys_metadata>16502eac8377c210c2f1f0b6feaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1346722_magma_request_details</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent display_value="Request Details">b994829f83af0a10c2f1f0b6feaad340</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_16502eac8377c210c2f1f0b6feaad3b4</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_16502eac8377c210c2f1f0b6feaad3b4">de502eac8377c210c2f1f0b6feaad3cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 17:57:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

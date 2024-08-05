@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Request Details" section_id="5503aaa183fb0a10c2f1f0b6feaad36c" sys_domain="global" table="x_1346722_magma_request_details" version="3" view="workspace-aqua-power-1">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_stage</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>municipality</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zone</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pin_number</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>22880d1283f30e10c2f1f0b6feaad3e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-05 19:26:24</sys_created_on>
+            <sys_id>2a880d1283f30e10c2f1f0b6feaad3e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_1346722_magma_request_details" sys_domain="global" view="b2f2e6a165fb0a10975a340fa985f455">5503aaa183fb0a10c2f1f0b6feaad36c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-05 19:26:24</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Details</caption>
+            <header>false</header>
+            <name>x_1346722_magma_request_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-08-03 18:06:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5503aaa183fb0a10c2f1f0b6feaad36c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1346722_magma_request_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+            <sys_update_name>sys_ui_section_5503aaa183fb0a10c2f1f0b6feaad36c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-08-03 18:06:16</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Aqua Power 1" name="workspace-aqua-power-1">b2f2e6a165fb0a10975a340fa985f455</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

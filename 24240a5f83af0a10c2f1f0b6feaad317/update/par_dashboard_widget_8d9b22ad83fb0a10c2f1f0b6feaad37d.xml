@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">fef2e6a1c8fb0a10243fb76629423357</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1i4cn0jf1p6tb2qekobg","filterName":"Request Type","filterComponentType":"singleselect","datasource":{"type":"table","table":{"id":"x_1346722_magma_request_details"},"field":{"id":"request_type","type":"choice","reference":""}},"targets":[{"type":"table","table":{"id":"x_1346722_magma_request_details"},"field":{"id":"request_type","type":"choice","reference":""}}],"defaultSelectedItems":"[]","dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableResetToDefault":false,"enableClearFilter":true,"maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"3ef2e6a135fb0a1026653bae1b9fc857","noDebounce":"","selectedElements":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 18:43:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d9b22ad83fb0a10c2f1f0b6feaad37d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>par_dashboard_widget_8d9b22ad83fb0a10c2f1f0b6feaad37d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 19:24:20</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>0</x>
+        <y>3</y>
+    </par_dashboard_widget>
+</record_update>

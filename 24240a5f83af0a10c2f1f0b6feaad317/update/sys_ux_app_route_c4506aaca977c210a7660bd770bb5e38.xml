@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="Aqua Power App Config">8c506aacad77c2109a0792609e0d3743</app_config>
+        <app_config/>
         <description/>
         <extension_point/>
         <fields/>

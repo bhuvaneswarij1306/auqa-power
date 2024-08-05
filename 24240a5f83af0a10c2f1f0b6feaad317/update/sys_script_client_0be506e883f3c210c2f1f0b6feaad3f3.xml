@@ -11,19 +11,45 @@
         <name>MRD: On Load Of Request</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-//     var uEmail = g_user.getClientData("email");
-// var uMobile = g_user.getClientData("mobile_number");
-// var loginLanguage = g_user.getClientData("loginlanguage");
-// alert('ts - ' + loginLanguage);
-	// var ga = new GlideAjax('x_1346722_magma.MRD_API');
-	// ga.addParam('sysparm','userDetails');
-	// ga.getXMLAnswer(callback);
+    var isNew = g_form.isNewRecord();
+    var requestor = g_form.getValue('owner_id');
+    var user = g_user.userName;
 
-	// function callback(response){
-	// 	var answer = JSON.parse(response);
-	// 	alert(answer);
-	// }
+    var status = g_form.getValue('request_status');
+    var stage = g_form.getValue('request_stage');
+
+    if (isNew || (requestor == user && stage == 8 && status == 4)) {
+        g_form.setReadOnly('address', false);
+        g_form.setReadOnly('comments', false);
+        g_form.setReadOnly('description', false);
+        g_form.setReadOnly('document_date', false);
+        g_form.setReadOnly('municipality', false);
+        g_form.setReadOnly('pin_number', false);
+        g_form.setReadOnly('request_type', false);
+        g_form.setReadOnly('title', false);
+        g_form.setReadOnly('year', false);
+        g_form.setReadOnly('zone', false);
+    } else {
+        g_form.setReadOnly('address', true);
+        g_form.setReadOnly('comments', true);
+        g_form.setReadOnly('contact_number', true);
+        g_form.setReadOnly('creator_email', true);
+        g_form.setReadOnly('description', true);
+        g_form.setReadOnly('document_date', true);
+        g_form.setReadOnly('from_send_back', true);
+        g_form.setReadOnly('is_active', true);
+        g_form.setReadOnly('is_payment_done', true);
+        g_form.setReadOnly('job_number', true);
+        g_form.setReadOnly('municipality', true);
+        g_form.setReadOnly('owner', true);
+        g_form.setReadOnly('owner_id', true);
+        g_form.setReadOnly('pin_number', true);
+        g_form.setReadOnly('request_type', true);
+        g_form.setReadOnly('title', true);
+        g_form.setReadOnly('year', true);
+        g_form.setReadOnly('zone', true);
+    }
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>nauman.ansari</sys_created_by>
@@ -31,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0be506e883f3c210c2f1f0b6feaad3f3</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>MRD: On Load Of Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
@@ -39,7 +65,7 @@
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_script_client_0be506e883f3c210c2f1f0b6feaad3f3</sys_update_name>
         <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-08-02 11:32:54</sys_updated_on>
+        <sys_updated_on>2024-08-05 04:03:05</sys_updated_on>
         <table>x_1346722_magma_request_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

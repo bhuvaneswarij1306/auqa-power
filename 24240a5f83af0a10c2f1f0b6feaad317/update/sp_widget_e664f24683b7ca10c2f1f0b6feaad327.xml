@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope, $window) {
+  $scope.goToForm = function() {
+    var c = this;
+		var sys = 'c480e68183338610c2f1f0b6feaad3ae';
+		var url = "https://dev208512.service-now.com/ap?id=form&table=x_1346722_magma_request_details&sys_id="+sys;
+		window.location.href = url;
+	};
+}
+
+
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.center {
+  margin-top: 10%;
+  padding:10%;
+  width: 100%;
+  padding: 10px;
+}
+.record-details-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.record-details-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+ 
+.card-image {
+    max-width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+ 
+.record-details-content {
+    padding: 20px;
+}
+ 
+.record-details-content h3 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+ 
+.detail-item {
+   // margin: 10px 0;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #555;
+}
+ 
+.view-details-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28ac64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+ 
+.view-details-btn:hover {
+    background-color: #0056b3;
+}
+ 
+.error-message {
+    color: red;
+    font-size: 16px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>show_stage</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>show stage</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    // Initialize the data object
+    data.stageLabel = "";
+    data.createdBy = "";
+    data.createdOn = "";
+    data.requestType = "";
+    data.error = "";
+    data.recordUrl = "";
+ 
+    // Get the sys_id and table from the URL parameters
+    var sysId = $sp.getParameter("sys_id");
+    var table = $sp.getParameter("table");
+ 
+    if (sysId && table) {
+        // GlideRecord query to get the record details from the specified table
+        var gr = new GlideRecord(table);
+        if (gr.get(sysId)) {
+            // Populate widget data with the required fields
+					  data.refNum = gr.getDisplayValue('number') || "Unknown";
+            data.stageLabel = gr.getDisplayValue('request_stage') || "Not specified";
+            data.createdBy = gr.getDisplayValue('sys_created_by') || "Unknown";
+            data.createdOn = gr.getDisplayValue('sys_created_on') || "Unknown";
+            data.requestType = gr.getDisplayValue('request_type') || "Unknown";
+					  //data.sys_id = gr.sys_id;
+            // Generate the URL to view the record form
+            data.recordUrl = "https://dev208512.service-now.com/ap?id=form&table=x_1346722_magma_request_details&sys_id="+ sysId;
+        } else {
+            // Handle case where the record is not found
+            data.error = "Record not found for the provided sys_id in table " + table + ".";
+        }
+    } else {
+        // Handle case where sys_id or table is not passed in URL
+        data.error = "No sys_id or table provided in the URL.";
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 08:39:13</sys_created_on>
+        <sys_id>e664f24683b7ca10c2f1f0b6feaad327</sys_id>
+        <sys_mod_count>51</sys_mod_count>
+        <sys_name>show stage</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sp_widget_e664f24683b7ca10c2f1f0b6feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 18:33:29</sys_updated_on>
+        <template><![CDATA[<div class="center">
+<div class="record-details-card">
+    <img src="https://img.freepik.com/premium-vector/business-process-concept_118813-6730.jpg" alt="Request Image" class="card-image"/> <!-- Update with actual image path -->
+    <div class="record-details-content">
+        <div ng-if="!data.error">
+            <h1 style="color: #28ac64;">Request Details</h1>
+           <div class="detail-item"><strong>Reference Number:</strong> {{data.refNum}}</div>
+            <div class="detail-item"><strong>Stage:</strong> {{data.stageLabel}}</div>
+            <div class="detail-item"><strong>Request Type:</strong> {{data.requestType}}</div>
+            <div class="detail-item"><strong>Created By:</strong> {{data.createdBy}}</div>
+            <div class="detail-item"><strong>Created On:</strong> {{data.createdOn}}</div>
+          <!--<button class="view-details-btn" ng-click="c.goToForm()">View Full Details</button>-->
+          <a class="view-details-btn" href= {{data.recordUrl}}
+             target="_self">View Full Details</a>
+        </div>
+        <div ng-if="data.error" class="error-message">
+            {{data.error}}
+        </div>
+    </div>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

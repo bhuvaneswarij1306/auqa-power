@@ -2,7 +2,7 @@
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <applicability display_value="Audience for list df97eaa483b7c210c2f1f0b6feaad3e4">8eb76e2883b7c210c2f1f0b6feaad37a</applicability>
-        <list display_value="Inspection Team Approval">df97eaa483b7c210c2f1f0b6feaad3e4</list>
+        <list/>
         <order>0</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>

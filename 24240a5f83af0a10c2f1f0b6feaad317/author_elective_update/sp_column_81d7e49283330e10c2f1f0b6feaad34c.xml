@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <semantic_tag/>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="3">05d72c5283330e10c2f1f0b6feaad3b0</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 17:03:29</sys_created_on>
+        <sys_id>81d7e49283330e10c2f1f0b6feaad34c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sp_column_81d7e49283330e10c2f1f0b6feaad34c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 17:03:29</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_column_81d7e49283330e10c2f1f0b6feaad34c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><semantic_tag/><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="3">05d72c5283330e10c2f1f0b6feaad3b0</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-05 17:03:29</sys_created_on><sys_id>81d7e49283330e10c2f1f0b6feaad34c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>sp_column_81d7e49283330e10c2f1f0b6feaad34c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-05 17:03:29</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1071677362</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>50154d9d837f8610c2f1f0b6feaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 17:03:29</sys_created_on>
+        <sys_id>8dd7e49283330e10c2f1f0b6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191237ef83a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 17:03:29</sys_updated_on>
+        <type>Column</type>
+        <update_guid>81d7e4925f330e104fbfc08d549dc94d</update_guid>
+        <update_guid_history>81d7e4925f330e104fbfc08d549dc94d:1071677362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">c3fbe41a83330e10c2f1f0b6feaad3cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 17:21:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>a8dbe892f12445ec97be7f60562026f1</sys_id>
+        <sys_metadata>81d7e49283330e10c2f1f0b6feaad34c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sp_column_81d7e49283330e10c2f1f0b6feaad34c</sys_update_name>
+        <sys_update_version display_value="sp_column_81d7e49283330e10c2f1f0b6feaad34c">8dd7e49283330e10c2f1f0b6feaad34d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 17:21:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

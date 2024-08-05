@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="DELETE">
+        <active>true</active>
+        <ai_search_source_filter/>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>lg</size>
+        <sp_column display_value="2">1911908983374610c2f1f0b6feaad3bc</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 16:01:52</sys_created_on>
+        <sys_id>a5c96ee883b7c210c2f1f0b6feaad32f</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>How can we help?</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sp_instance_ais_a5c96ee883b7c210c2f1f0b6feaad32f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 19:37:00</sys_updated_on>
+        <title>How can we help?</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="DELETE" query="documentkey=a5c96ee883b7c210c2f1f0b6feaad32f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_instance_ais_a5c96ee883b7c210c2f1f0b6feaad32f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_ais"&gt;&lt;sp_instance_ais action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;ai_search_source_filter/&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;disable_all_suggestions&gt;false&lt;/disable_all_suggestions&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder/&gt;&lt;roles/&gt;&lt;search_application/&gt;&lt;search_results_configuration/&gt;&lt;short_description/&gt;&lt;size&gt;lg&lt;/size&gt;&lt;sp_column display_value="2"&gt;1911908983374610c2f1f0b6feaad3bc&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;spell_check_font_size&gt;xl&lt;/spell_check_font_size&gt;&lt;sys_class_name&gt;sp_instance_ais&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-31 16:01:52&lt;/sys_created_on&gt;&lt;sys_id&gt;a5c96ee883b7c210c2f1f0b6feaad32f&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;How can we help?&lt;/sys_name&gt;&lt;sys_package display_value="Aqua Power" source="x_1346722_magma"&gt;24240a5f83af0a10c2f1f0b6feaad317&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aqua Power"&gt;24240a5f83af0a10c2f1f0b6feaad317&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_ais_a5c96ee883b7c210c2f1f0b6feaad32f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-04 19:37:00&lt;/sys_updated_on&gt;&lt;title&gt;How can we help?&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_ais&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=a5c96ee883b7c210c2f1f0b6feaad32f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1828646526</payload_hash>
+        <record_name>How can we help?</record_name>
+        <reverted_from/>
+        <source>50154d9d837f8610c2f1f0b6feaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 19:37:00</sys_created_on>
+        <sys_id>c061408a83f78a10c2f1f0b6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1911ee52ae20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 19:37:00</sys_updated_on>
+        <type>Instance with Search</type>
+        <update_guid>4861408af9f78a10c038391467eeccc0</update_guid>
+        <update_guid_history>4861408af9f78a10c038391467eeccc0:-1828646526,c861008a3cf78a1056d144928f3a9d9c:1854135294,7e51008a02f78a10a85688a0f0c4e365:1471143969,7651008a3df78a10a9493b8defc50154:-1828646526,6e51008a71f78a10f95a69b34b88e528:1471143969,e651cc4aaaf78a1089ba292086721637:-1828646526,3451cc4a6df78a1004ba020ac2cd6453:1471143969,1c518c4a7bf78a101a433c1fec0318e3:-1828646526,0b414c4a50f78a10f03225d31ecffdb3:1473813076,9331084ac1f78a10cccf248d78a62e26:1011674928,151190897237461088c599dc11cab8b9:-905473339,a0019c498937461009571eeb874dddff:720565430,56f0dc49f23746109fae1dc518b09480:-1301920321,52f0dc496d3746108974de9e70e50f7b:477732175,def0dc4975374610a2e617facec5eb75:1727797936,19f01849a33746105cfae73705bba554:-1301920321,8fdfc0095d374610a8c5f436640c9d32:1727797936,74df0409f03746107d7225666288e50e:208886622,51cf8009cc374610fbdcadd3f6a47d63:-1041179139,11cf800999374610771a9fd52100f85e:208886622,99cf00094737461042100256019ee5b1:1262570242,64cf4009e7374610d61e97c05f0d2d88:-1041179139,0fbfccc5d63746105fd8ad0ba3d76a24:208886622,6ebf000991374610b1ae8882da1ba63d:1262570242,f124f26819f7c21033376f73a742f24d:208886622,e9c96ee87cb7c210df63aa28e07fa431:1458952383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="How can we help?">8e61808a83f78a10c2f1f0b6feaad382</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 19:37:08</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_ais">sp_instance_ais</sys_db_object>
+        <sys_id>56353e62184744a988dcb5824c961811</sys_id>
+        <sys_metadata>a5c96ee883b7c210c2f1f0b6feaad32f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How can we help?</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sp_instance_ais_a5c96ee883b7c210c2f1f0b6feaad32f</sys_update_name>
+        <sys_update_version display_value="sp_instance_ais_a5c96ee883b7c210c2f1f0b6feaad32f">c061408a83f78a10c2f1f0b6feaad3c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 19:37:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

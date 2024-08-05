@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Reject Request</name>
+        <specificity>10</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 08:31:16</sys_created_on>
+        <sys_id>ae6f94ad83ffc610c2f1f0b6feaad361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Request</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sys_ux_form_action_ae6f94ad83ffc610c2f1f0b6feaad361</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 08:31:16</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <ui_action display_value="Reject Request">044f90ad83ffc610c2f1f0b6feaad327</ui_action>
+    </sys_ux_form_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=ae6f94ad83ffc610c2f1f0b6feaad361"/>
+</record_update>

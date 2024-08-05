@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="Aqua Power App Config">8c506aacad77c2109a0792609e0d3743</app_config>
+        <app_config/>
         <description/>
         <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[
@@ -115,7 +115,7 @@
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
-        "value": true
+        "value": false
     },
     "headerLevel": {
         "type": "JSON_LITERAL",
@@ -163,7 +163,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>08506aaccc77c2101a39c3b4380c7531</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Home default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
@@ -171,7 +171,7 @@
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_ux_screen_08506aaccc77c2101a39c3b4380c7531</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-02 04:32:35</sys_updated_on>
+        <sys_updated_on>2024-08-02 17:28:27</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=08506aaccc77c2101a39c3b4380c7531"/>
 </record_update>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css>.record-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+ 
+.record-details h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+ 
+.detail-item {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+ 
+.error-message {
+    color: red;
+    font-size: 16px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>show_stage</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Show Stage</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    // Get the sys_id from the context (passed from the instance table)
+    var sysId = $sp.getParameter("sys_id");
+    
+    // GlideRecord query to get the record details from the request details table
+    var gr = new GlideRecord('u_request_details'); // Replace with your exact table name if different
+    if (gr.get(sysId)) {
+        // Populate widget data with the required fields
+        data.stage = gr.getValue('request_stage');
+        data.createdBy = gr.getDisplayValue('sys_created_by');
+        data.createdOn = gr.getDisplayValue('sys_created_on');
+        data.requestType = gr.getDisplayValue('request_type');
+    } else {
+        // Handle case where the record is not found
+        data.error = "Record not found";
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 08:08:13</sys_created_on>
+        <sys_id>145d6e0a8377ca10c2f1f0b6feaad33a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Show Stage</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sp_widget_145d6e0a8377ca10c2f1f0b6feaad33a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 08:35:14</sys_updated_on>
+        <template><![CDATA[<div class="record-details">
+    <div ng-if="!data.error">
+        <h3>Request Details</h3>
+        <div class="detail-item"><strong>Stage:</strong> {{data.stage}}</div>
+        <div class="detail-item"><strong>Created By:</strong> {{data.createdBy}}</div>
+        <div class="detail-item"><strong>Created On:</strong> {{data.createdOn}}</div>
+        <div class="detail-item"><strong>Request Type:</strong> {{data.requestType}}</div>
+    </div>
+    <div ng-if="data.error" class="error-message">
+        {{data.error}}
+    </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>sp_widget_145d6e0a8377ca10c2f1f0b6feaad33a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.record-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+ 
+.record-details h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+ 
+.detail-item {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+ 
+.error-message {
+    color: red;
+    font-size: 16px;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;show_stage&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Show Stage&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+    // Get the sys_id from the context (passed from the instance table)
+    var sysId = $sp.getParameter("sys_id");
+    
+    // GlideRecord query to get the record details from the request details table
+    var gr = new GlideRecord('u_request_details'); // Replace with your exact table name if different
+    if (gr.get(sysId)) {
+        // Populate widget data with the required fields
+        data.stage = gr.getValue('request_stage');
+        data.createdBy = gr.getDisplayValue('sys_created_by');
+        data.createdOn = gr.getDisplayValue('sys_created_on');
+        data.requestType = gr.getDisplayValue('request_type');
+    } else {
+        // Handle case where the record is not found
+        data.error = "Record not found";
+    }
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-08-05 08:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;145d6e0a8377ca10c2f1f0b6feaad33a&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show Stage&lt;/sys_name&gt;&lt;sys_package display_value="Aqua Power" source="x_1346722_magma"&gt;24240a5f83af0a10c2f1f0b6feaad317&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Aqua Power"&gt;24240a5f83af0a10c2f1f0b6feaad317&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_145d6e0a8377ca10c2f1f0b6feaad33a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-08-05 08:35:14&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="record-details"&gt;
+    &lt;div ng-if="!data.error"&gt;
+        &lt;h3&gt;Request Details&lt;/h3&gt;
+        &lt;div class="detail-item"&gt;&lt;strong&gt;Stage:&lt;/strong&gt; {{data.stage}}&lt;/div&gt;
+        &lt;div class="detail-item"&gt;&lt;strong&gt;Created By:&lt;/strong&gt; {{data.createdBy}}&lt;/div&gt;
+        &lt;div class="detail-item"&gt;&lt;strong&gt;Created On:&lt;/strong&gt; {{data.createdOn}}&lt;/div&gt;
+        &lt;div class="detail-item"&gt;&lt;strong&gt;Request Type:&lt;/strong&gt; {{data.requestType}}&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div ng-if="data.error" class="error-message"&gt;
+        {{data.error}}
+    &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-213465019</payload_hash>
+        <record_name>Show Stage</record_name>
+        <reverted_from/>
+        <source>50154d9d837f8610c2f1f0b6feaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 08:35:14</sys_created_on>
+        <sys_id>c083328683b7ca10c2f1f0b6feaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19121ada75b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 08:35:14</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>4883328613b7ca1026ee7a535dba6449</update_guid>
+        <update_guid_history>4883328613b7ca1026ee7a535dba6449:-213465019,5d73be46f7b7ca106e578df8583c2938:-629746416,25b1b2c25eb7ca1072f0b8892145121a:-699028823,c0a176c27db7ca10e13bd247a991d396:-1598148609,9e7172c255b7ca10a46a755e00d65ab1:-699028823,4f20368e5077ca105f9aad9e4cef1ded:164813776,1aed2a8e3777ca1066ceb64e5980ce18:1371565195,14cd268e8d77ca10705692632429b5e5:-756932226,945dea4e8477ca102f5a1401c6030f8f:-1418224034</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Show Stage">0993fe4683b7ca10c2f1f0b6feaad398</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-05 08:35:35</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>01bd4a31336149b0806f0b220bed7a41</sys_id>
+        <sys_metadata>145d6e0a8377ca10c2f1f0b6feaad33a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show Stage</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>sp_widget_145d6e0a8377ca10c2f1f0b6feaad33a</sys_update_name>
+        <sys_update_version display_value="sp_widget_145d6e0a8377ca10c2f1f0b6feaad33a">c083328683b7ca10c2f1f0b6feaad34a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-05 08:35:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

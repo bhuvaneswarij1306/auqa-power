@@ -7,11 +7,11 @@
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
-        <homepage display_value="ap_index">a1c9eae883b7c210c2f1f0b6feaad351</homepage>
+        <homepage display_value="ap_home">ef8b4ae1837b0a10c2f1f0b6feaad3a0</homepage>
         <icon/>
         <kb_knowledge_base/>
         <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
-        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <login_page display_value="landing">36c61807cb31120000f8d856634c9ca9</login_page>
         <logo/>
         <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
         <quick_start_config/>
@@ -27,15 +27,15 @@
         <sys_created_by>nauman.ansari</sys_created_by>
         <sys_created_on>2024-07-31 12:35:10</sys_created_on>
         <sys_id>834af96883b3c210c2f1f0b6feaad398</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Aqua Power</sys_name>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sp_portal_834af96883b3c210c2f1f0b6feaad398</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-02 10:59:40</sys_updated_on>
-        <theme display_value="EC Theme">9b6f06d71bb8f85047582171604bcb9c</theme>
+        <sys_updated_on>2024-08-05 17:43:31</sys_updated_on>
+        <theme display_value="AP Theme">d44e7e7183b38a10c2f1f0b6feaad3c0</theme>
         <title>Aqua Power</title>
         <ts_index_group/>
         <url_suffix>ap</url_suffix>

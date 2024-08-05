@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
     <par_dashboard_visibility action="INSERT_OR_UPDATE">
         <dashboard display_value="Aqua Power">0c506aac0077c210e81a893493b03f3c</dashboard>
-        <experience display_value="Aqua Power">c8506aac2b77c21070af972e396a1a43</experience>
+        <experience/>
         <sys_class_name>par_dashboard_visibility</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-31 15:20:32</sys_created_on>

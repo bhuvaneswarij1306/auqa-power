@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn-circle {&#13;
+width: 40px;&#13;
+height: 40px;&#13;
+text-align: center;&#13;
+padding: 6% 0;&#13;
+font-size: 6px;&#13;
+line-height: 0.6;&#13;
+border-radius: 100%;&#13;
+}&#13;
+&#13;
+.process-row {&#13;
+display: table-row;&#13;
+}&#13;
+&#13;
+.process {&#13;
+display: table;&#13;
+width: 100%;&#13;
+position: relative;&#13;
+}&#13;
+&#13;
+.process-step button[disabled] {&#13;
+opacity: 1 !important;&#13;
+filter: alpha(opacity=100) !important;&#13;
+}&#13;
+&#13;
+.process-row:before {&#13;
+top: 20px;&#13;
+bottom: 0;&#13;
+position: absolute;&#13;
+content: " ";&#13;
+width: 100%;&#13;
+height: 1px;&#13;
+background-color: #ccc;&#13;
+z-order: 0;&#13;
+&#13;
+}&#13;
+&#13;
+.process-step {&#13;
+display: table-cell;&#13;
+text-align: center;&#13;
+position: relative;&#13;
+padding-left: 0%;&#13;
+padding-right: 5%;&#13;
+}&#13;
+&#13;
+.process-step p {&#13;
+margin-top:10px;&#13;
+&#13;
+}&#13;
+&#13;
+.btn-circle.active {&#13;
+border: 2px solid #cc0;&#13;
+}&#13;
+&#13;
+ </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>process_flow</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Process Flow</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+/* populate the 'data' object */
+/* e.g., data.table = $sp.getValue('table'); */
+
+data.choices=[];
+data.recId = $sp.getParameter('sys_id');
+
+var ar=new GlideRecord("incident");
+if(ar.get(data.recId))
+{
+data.state=ar.getDisplayValue('state');
+}
+
+var gr = new GlideRecord('sys_choice');
+gr.addEncodedQuery("name=incident^element=state^orderBysequence");
+gr.query();
+while(gr.next())
+{
+var _choiceLabel = gr.getValue('label');
+data.choices.push(_choiceLabel);
+}
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-04 13:38:39</sys_created_on>
+        <sys_id>f0ed663d83338a10c2f1f0b6feaad3db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>sp_widget_f0ed663d83338a10c2f1f0b6feaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-04 13:38:39</sys_updated_on>
+        <template><![CDATA[<div class="container">
+<div class="process">
+<div class="process-row">
+<div class="process-step" ng-repeat="d in c.data.choices">
+<button type="button" disabled="disabled" class="btn btn-default btn-circle" ng-if="c.data.state!=d"><i class="fa fa-check fa-3x" aria-hidden="true"></i></button>
+<button type="button" disabled="disabled" class="btn btn-success btn-circle" ng-if="c.data.state==d"><i class="fa fa-check fa-3x" aria-hidden="true"></i></button>
+<p>{{d}}</p>
+</div>
+</div>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

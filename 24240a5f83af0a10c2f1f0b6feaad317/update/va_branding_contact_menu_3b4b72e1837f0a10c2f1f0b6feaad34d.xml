@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="va_branding_contact_menu">
+    <va_branding_contact_menu action="INSERT_OR_UPDATE">
+        <branding display_value="AP Branding">03ba72a1837f0a10c2f1f0b6feaad35b</branding>
+        <display_default_icon>true</display_default_icon>
+        <display_wait_time>true</display_wait_time>
+        <icon/>
+        <icon_hint/>
+        <label>End conversation</label>
+        <order>1</order>
+        <sys_class_name>va_branding_contact_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 19:52:24</sys_created_on>
+        <sys_id>3b4b72e1837f0a10c2f1f0b6feaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>va_branding_contact_menu_3b4b72e1837f0a10c2f1f0b6feaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 19:52:24</sys_updated_on>
+        <type>Icon</type>
+        <value>end-conversation</value>
+        <visible>true</visible>
+    </va_branding_contact_menu>
+</record_update>

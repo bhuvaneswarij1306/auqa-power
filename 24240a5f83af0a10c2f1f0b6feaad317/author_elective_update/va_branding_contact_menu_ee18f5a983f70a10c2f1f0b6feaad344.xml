@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="va_branding_contact_menu">
+    <va_branding_contact_menu action="DELETE">
+        <branding display_value="">570da9e983b70a10c2f1f0b6feaad3f3</branding>
+        <display_default_icon>true</display_default_icon>
+        <display_wait_time>true</display_wait_time>
+        <icon/>
+        <icon_hint/>
+        <label>Support options</label>
+        <order>1</order>
+        <sys_class_name>va_branding_contact_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 14:58:46</sys_created_on>
+        <sys_id>ee18f5a983f70a10c2f1f0b6feaad344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>va_branding_contact_menu_ee18f5a983f70a10c2f1f0b6feaad344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 14:58:46</sys_updated_on>
+        <type>Icon</type>
+        <value>contact-support</value>
+        <visible>true</visible>
+    </va_branding_contact_menu>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>va_branding_contact_menu_ee18f5a983f70a10c2f1f0b6feaad344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="va_branding_contact_menu"><va_branding_contact_menu action="INSERT_OR_UPDATE"><branding display_value="">570da9e983b70a10c2f1f0b6feaad3f3</branding><display_default_icon>true</display_default_icon><display_wait_time>true</display_wait_time><icon/><icon_hint/><label>Support options</label><order>1</order><sys_class_name>va_branding_contact_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-08-03 14:58:46</sys_created_on><sys_id>ee18f5a983f70a10c2f1f0b6feaad344</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>va_branding_contact_menu_ee18f5a983f70a10c2f1f0b6feaad344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-03 14:58:46</sys_updated_on><type>Icon</type><value>contact-support</value><visible>true</visible></va_branding_contact_menu></record_update>]]></payload>
+        <payload_hash>1086650056</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5876643193220210ee61f5befaba10ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-06-03 00:21:58</sys_created_on>
+        <sys_id>4b6af96d83f70a10c2f1f0b6feaad37b</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18fdb7968700000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Menu Item</type>
+        <update_guid>0b6af96d29f70a1090cde1096f9fb97b</update_guid>
+        <update_guid_history>0b6af96d29f70a1090cde1096f9fb97b:1086650056</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">036af96d83f70a10c2f1f0b6feaad37c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-03 15:08:54</sys_created_on>
+        <sys_db_object display_value="" name="va_branding_contact_menu">va_branding_contact_menu</sys_db_object>
+        <sys_id>2ce133a419a7471e956e1e277cfc3e29</sys_id>
+        <sys_metadata>ee18f5a983f70a10c2f1f0b6feaad344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>va_branding_contact_menu_ee18f5a983f70a10c2f1f0b6feaad344</sys_update_name>
+        <sys_update_version display_value="va_branding_contact_menu_ee18f5a983f70a10c2f1f0b6feaad344">4b6af96d83f70a10c2f1f0b6feaad37b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-03 15:08:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

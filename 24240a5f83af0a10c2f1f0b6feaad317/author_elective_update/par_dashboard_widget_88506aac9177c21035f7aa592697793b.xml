@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">48506aacaf77c210c2fa4b44b8d0713c</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_1346722_magma_request_details","fixedQuery":"","listTitle":"My Work","columns":"number,request_stage,sys_created_on,sys_created_by","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":true,"hideRefreshButton":false,"hideInlineEditing":true,"refreshRequested":"","noDebounce":"","selectedElements":[],"limit":10,"nrlLandmark":true}</component_props>
+        <h>32</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-31 15:20:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88506aac9177c21035f7aa592697793b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_update_name>par_dashboard_widget_88506aac9177c21035f7aa592697793b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 17:37:32</sys_updated_on>
+        <visualization/>
+        <w>24</w>
+        <widget_props/>
+        <x>0</x>
+        <y>3</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</application>
+        <file_path/>
+        <instance_id>8afd14cb1b12b59439a54089bd4bcbcb</instance_id>
+        <instance_name>dev208512</instance_name>
+        <name>par_dashboard_widget_88506aac9177c21035f7aa592697793b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">48506aacaf77c210c2fa4b44b8d0713c</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_1346722_magma_request_details","fixedQuery":"","listTitle":"My Work","columns":"number,request_stage,sys_created_on,sys_created_by","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":true,"hideDotwalk":true,"hideColumnReorder":true,"hideRowSelector":false,"hideColumnGrouping":true,"hideColumnResizing":true,"hideColumnFiltering":true,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":true,"hideRefreshButton":false,"hideInlineEditing":true,"refreshRequested":"","noDebounce":"","selectedElements":[],"limit":10,"nrlLandmark":true}</component_props><h>32</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-31 15:20:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>88506aac9177c21035f7aa592697793b</sys_id><sys_mod_count>9</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package><sys_policy/><sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope><sys_update_name>par_dashboard_widget_88506aac9177c21035f7aa592697793b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-08-02 17:37:32</sys_updated_on><visualization/><w>24</w><widget_props/><x>0</x><y>3</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1087480263</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>50154d9d837f8610c2f1f0b6feaad31c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 17:37:32</sys_created_on>
+        <sys_id>a2d2519183ff8610c2f1f0b6feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191142b102c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 17:37:32</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>2ad25191d0ff8610e5821f4918adf670</update_guid>
+        <update_guid_history>2ad25191d0ff8610e5821f4918adf670:1087480263,1f2215dd6cbf86102c946099c0005292:-1524951342,1de94595dfbf8610c427586e8e28271e:-964459129,77190555debf861082a0bda54cf514e5:-1160650741,4f86415135bf861071601d30b6de29fa:-964459129,901f9ecdd6ff4610cf5314f08281690f:1584488845,c105666416b7c21004b2ca2b63a34db7:1364301843,2754a62434b7c210d07f930015a87933:-1217884103,4950aaac1077c2103017f9a9c3181f6f:1234759243,0d50aaac3477c2107e60f7d96951c06d:-1781589699</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">502459d183ff8610c2f1f0b6feaad39a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-08-02 17:43:07</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0eb4cede44594d27845ec0cb9853f7f1</sys_id>
+        <sys_metadata>88506aac9177c21035f7aa592697793b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
+        <sys_scope_delete display_value="">0142fdd259484220811c29cfdb43eee4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_88506aac9177c21035f7aa592697793b</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_88506aac9177c21035f7aa592697793b">a2d2519183ff8610c2f1f0b6feaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-08-02 17:43:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

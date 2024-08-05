@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b994829f83af0a10c2f1f0b6feaad340" label="Request Details" max_length="40" name="x_1346722_magma_request_details" text_index="true" type="collection">
-        <element choice="1" label="Request Stage" max_length="40" name="request_stage" type="string">
+    <element audit="true" db_object_id="b994829f83af0a10c2f1f0b6feaad340" label="Request Details" max_length="40" name="x_1346722_magma_request_details" text_index="true" type="collection">
+        <element choice="1" label="Request Stage" max_length="40" name="request_stage" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Inspection Review" sequence="2" value="3"/>
                 <element inactive_on_update="false" label="Re-Submit" sequence="6" value="7"/>
@@ -48,7 +48,7 @@
         <element label="Pin Number" mandatory="true" max_length="40" name="pin_number" type="string"/>
         <element choice="1" label="Request Type" max_length="40" name="request_type" type="string">
             <choice>
-                <element inactive_on_update="false" label="Electricity" sequence="1" value="E\electricity"/>
+                <element inactive_on_update="false" label="Electricity" sequence="1" value="electricity"/>
                 <element inactive_on_update="false" label="Water" sequence="0" value="water"/>
             </choice>
         </element>
