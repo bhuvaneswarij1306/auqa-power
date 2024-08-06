@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-03 09:17:18</sys_updated_on>
         <table>sysapproval_approver</table>
-        <ui_action display_value="Send Back Request">997f54ed83ffc610c2f1f0b6feaad31d</ui_action>
+        <ui_action display_value="Send Back">997f54ed83ffc610c2f1f0b6feaad31d</ui_action>
     </sys_ux_form_action>
     <sys_translated_text action="delete_multiple" query="documentkey=bcf9e46183730a10c2f1f0b6feaad3b9"/>
 </record_update>

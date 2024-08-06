@@ -23,10 +23,10 @@
         <element label="Contact Number" max_length="40" name="contact_number" read_only="true" type="string"/>
         <element label="Description" mandatory="true" max_length="400" name="description" type="string"/>
         <element label="Is Payment Done" max_length="40" name="is_payment_done" type="boolean"/>
-        <element default="javascript:gs.getUser().email" dynamic_default_value="ba8f4b76eb330100d4360c505206feb2" label="Creator Email" max_length="32" name="creator_email" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUser().email" dynamic_default_value="ba8f4b76eb330100d4360c505206feb2" label="Creator Email" max_length="40" name="creator_email" read_only="true" type="string" use_dynamic_default="true"/>
         <element label="Comments" max_length="400" name="comments" type="string"/>
         <element label="Year" mandatory="true" max_length="40" name="year" type="integer"/>
-        <element choice="1" label="Request Status" max_length="40" name="request_status" type="string">
+        <element choice="1" label="Request Status" max_length="40" name="request_status" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Rejected by Inspection" sequence="5" value="6"/>
                 <element inactive_on_update="false" label="Re-Submitted" sequence="11" value="12"/>
@@ -52,5 +52,6 @@
                 <element inactive_on_update="false" label="Water" sequence="0" value="water"/>
             </choice>
         </element>
+        <element label="Additional Documents" max_length="255" name="additional_documents" type="file_attachment"/>
     </element>
 </database>

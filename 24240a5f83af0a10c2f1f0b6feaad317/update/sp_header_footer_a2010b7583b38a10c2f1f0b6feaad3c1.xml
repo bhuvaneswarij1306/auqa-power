@@ -4,6 +4,11 @@
         <client_script><![CDATA[api.controller=function() {
   /* widget controller */
   var c = this;
+  c.logout = function(){
+	spUtil.get('sp_logout').then(function(){
+		$window.location.href = '/logout.do?sysparm_goto_url=https://dev208512.service-now.com';
+	});
+  };
 };]]></client_script>
         <controller_as>c</controller_as>
         <css>@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);&#13;
@@ -183,27 +188,27 @@ data.loggedInUser = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-04 14:56:44</sys_created_on>
         <sys_id>a2010b7583b38a10c2f1f0b6feaad3c1</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_name>AP side Header</sys_name>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sp_header_footer_a2010b7583b38a10c2f1f0b6feaad3c1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 18:59:22</sys_updated_on>
+        <sys_updated_on>2024-08-06 18:07:10</sys_updated_on>
         <template><![CDATA[<div>
     <!-- your widget template -->
     <div class="area"></div>
     <nav class="main-menu" style="position:fixed;height: calc(100%);overflow: auto;">
         <ul>
             <li>
-                <a href="https://dev208512.service-now.com/ap">
+                <a href="https://dev208512.service-now.com/ap?id=ap_home">
                     <i class="fa fa-home fa-2x"></i>
                     <h3>Aqua Power</h3>
                 </a>
             </li>
            <li class="has-subnav">
-                <a href="https://dev208512.service-now.com/ap?id=user_profile&sys_id={{c.loggedInUser.sys_id}}">
+                <a href="https://dev208512.service-now.com/ap?id=user_profile&sys_id={{c.data.loggedInUser.sys_id}}">
                 <i class="fa fa-user fa-2x"></i>
                 <span class="nav-text">
                  {{c.data.loggedInUser.userName}}
@@ -241,7 +246,7 @@ data.loggedInUser = {
                 My Approval
                 </span>
                 </a>
-            </li>-->
+            </li>
             <li class="has-subnav">
                 <a href="https://dev208512.service-now.com/ap?id=ap_dashboard">
                 <i class="fa fa-pie-chart fa-2x"></i>
@@ -249,7 +254,7 @@ data.loggedInUser = {
                 Dashboard
                 </span>
                 </a>
-            </li>
+            </li>-->
             <li class="has-subnav">
                 <a href="https://dev208512.service-now.com/ap?id=sc_category">
                 <i class="fa fa-file fa-2x"></i>
@@ -271,6 +276,14 @@ data.loggedInUser = {
                 <i class="fa fa-user-plus fa-2x"></i>
                 <span class="nav-text">
                 Get Help
+                </span>
+                </a>
+            </li>
+           <li class="has-subnav">
+                <a href="https://dev208512.service-now.com/logout.do?sysparm_goto_url=https://dev208512.service-now.com/">
+                <i class="fa fa-sign-out fa-2x"></i>
+                <span class="nav-text">
+                 Log out
                 </span>
                 </a>
             </li>

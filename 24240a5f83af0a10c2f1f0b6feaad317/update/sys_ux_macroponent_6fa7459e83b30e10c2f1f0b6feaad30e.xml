@@ -4280,9 +4280,13 @@
                 "container": [
                     {
                         "container": {
+                            "disabled": {
+                                "type": "JSON_LITERAL",
+                                "value": false
+                            },
                             "id": {
                                 "type": "JSON_LITERAL",
-                                "value": "Initiated"
+                                "value": "1"
                             },
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
@@ -4303,11 +4307,11 @@
                         "container": {
                             "disabled": {
                                 "type": "JSON_LITERAL",
-                                "value": true
+                                "value": false
                             },
                             "id": {
                                 "type": "JSON_LITERAL",
-                                "value": "GIS Review"
+                                "value": "2"
                             },
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
@@ -4328,11 +4332,11 @@
                         "container": {
                             "disabled": {
                                 "type": "JSON_LITERAL",
-                                "value": true
+                                "value": false
                             },
                             "id": {
                                 "type": "JSON_LITERAL",
-                                "value": "Inspection Review"
+                                "value": "3"
                             },
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
@@ -4353,11 +4357,11 @@
                         "container": {
                             "disabled": {
                                 "type": "JSON_LITERAL",
-                                "value": true
+                                "value": false
                             },
                             "id": {
                                 "type": "JSON_LITERAL",
-                                "value": "Review Team"
+                                "value": "4"
                             },
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
@@ -4378,11 +4382,11 @@
                         "container": {
                             "disabled": {
                                 "type": "JSON_LITERAL",
-                                "value": true
+                                "value": false
                             },
                             "id": {
                                 "type": "JSON_LITERAL",
-                                "value": "Completed"
+                                "value": "5"
                             },
                             "label": {
                                 "type": "TRANSLATION_LITERAL",
@@ -4432,7 +4436,7 @@
             }
         },
         "slot": "top",
-        "styles": {}
+        "styles": null
     },
     {
         "conditionals": null,
@@ -5590,14 +5594,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 19:22:39</sys_created_on>
         <sys_id>6fa7459e83b30e10c2f1f0b6feaad30e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Request Details Record Page copy</sys_name>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_ux_macroponent_6fa7459e83b30e10c2f1f0b6feaad30e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 19:34:58</sys_updated_on>
+        <sys_updated_on>2024-08-06 13:11:07</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=6fa7459e83b30e10c2f1f0b6feaad30e"/>
 </record_update>

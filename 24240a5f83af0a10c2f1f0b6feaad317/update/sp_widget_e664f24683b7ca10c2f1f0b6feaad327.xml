@@ -14,7 +14,7 @@
 ]]></client_script>
         <controller_as>c</controller_as>
         <css>.center {
-  margin-top: 10%;
+  margin-top: 5%;
   padding:10%;
   width: 100%;
   padding: 10px;
@@ -136,14 +136,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-05 08:39:13</sys_created_on>
         <sys_id>e664f24683b7ca10c2f1f0b6feaad327</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_name>show stage</sys_name>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sp_widget_e664f24683b7ca10c2f1f0b6feaad327</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-05 18:33:29</sys_updated_on>
+        <sys_updated_on>2024-08-06 04:14:06</sys_updated_on>
         <template><![CDATA[<div class="center">
 <div class="record-details-card">
     <img src="https://img.freepik.com/premium-vector/business-process-concept_118813-6730.jpg" alt="Request Image" class="card-image"/> <!-- Update with actual image path -->

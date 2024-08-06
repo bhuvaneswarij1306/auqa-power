@@ -14,10 +14,10 @@
     var isNew = g_form.isNewRecord();
     var requestor = g_form.getValue('owner_id');
     var user = g_user.userName;
-
+	
     var status = g_form.getValue('request_status');
     var stage = g_form.getValue('request_stage');
-
+	// alert('User - ' + user + '  |  ' + requestor + ' | Stage - ' + stage + ' | Status - ' + status);
     if (isNew || (requestor == user && stage == 8 && status == 4)) {
         g_form.setReadOnly('address', false);
         g_form.setReadOnly('comments', false);
@@ -57,7 +57,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0be506e883f3c210c2f1f0b6feaad3f3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>MRD: On Load Of Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_script_client_0be506e883f3c210c2f1f0b6feaad3f3</sys_update_name>
         <sys_updated_by>nauman.ansari</sys_updated_by>
-        <sys_updated_on>2024-08-05 04:03:05</sys_updated_on>
+        <sys_updated_on>2024-08-06 11:04:30</sys_updated_on>
         <table>x_1346722_magma_request_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

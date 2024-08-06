@@ -7,7 +7,7 @@
 
 }]]></client_script_v2>
         <comments/>
-        <condition>current.state == 'requested' </condition>
+        <condition>current.state == 'requested' &amp;&amp;current.approver==gs.getUserID()</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>true</form_button_v2>
@@ -39,9 +39,9 @@ if(current.comments.getJournalEntry(1) != undefined) {
 	if (index > -1 && index <= 22)
 		comments = true;
 }
-if(!JSUtil.nil(current.comments) || comments){
+if(! (current.comments) || comments){
 	current.update();
-	new ApprovalUserFeedback().rejected(current);
+	//new ApprovalUserFeedback().rejected(current);
 }else{
 	gs.addErrorMessage(gs.getMessage("Comments are required when rejecting an approval"));
 	current.state = 'requested';
@@ -57,7 +57,7 @@ if(!JSUtil.nil(current.comments) || comments){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>044f90ad83ffc610c2f1f0b6feaad327</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Reject Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
@@ -65,7 +65,7 @@ if(!JSUtil.nil(current.comments) || comments){
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_ui_action_044f90ad83ffc610c2f1f0b6feaad327</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 09:18:59</sys_updated_on>
+        <sys_updated_on>2024-08-06 12:58:50</sys_updated_on>
         <table>sysapproval_approver</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

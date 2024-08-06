@@ -3,8 +3,9 @@
         <active>true</active>
         <category display_value="Approval">14032aa183fb0a10c2f1f0b6feaad3e3</category>
         <columns>state,approver,document_id,sys_created_on</columns>
-        <condition table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^source_table=<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        <condition table="sysapproval_approver">approverDYNAMIC90d1921e5f510100a9ad2572f2b477fe^source_table=^state=<item endquery="false" field="approver" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <configuration display_value="Aqua Power_menu_config">94032aa183fb0a10c2f1f0b6feaad3d4</configuration>
         <group_by_column/>
@@ -62,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3c33269833f0a10c2f1f0b6feaad3b6</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reviewer Team Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
@@ -70,7 +71,7 @@
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_ux_list_d3c33269833f0a10c2f1f0b6feaad3b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 19:20:49</sys_updated_on>
+        <sys_updated_on>2024-08-06 18:51:08</sys_updated_on>
         <table>sysapproval_approver</table>
         <title>Reviewer Team Approval</title>
         <view/>

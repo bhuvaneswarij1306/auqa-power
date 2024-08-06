@@ -183,6 +183,10 @@
                 "type": "JSON_LITERAL",
                 "value": ""
             },
+            "pageCollectionMode": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
             "resizableMaxHeight": {
                 "type": "JSON_LITERAL",
                 "value": null
@@ -198,6 +202,139 @@
             "resizeMinWidth": {
                 "type": "JSON_LITERAL",
                 "value": 420
+            },
+            "size": {
+                "type": "JSON_LITERAL",
+                "value": "md"
+            }
+        },
+        "slot": null,
+        "styles": null
+    },
+    {
+        "definition": {
+            "id": "e72c75f648cda0becbd28db9a44b569f",
+            "type": "MACROPONENT"
+        },
+        "elementId": "stepper_1",
+        "elementLabel": "Stepper 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "hideNumbers": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "items": {
+                "container": [
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "1"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Initiated"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "none"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "2"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "GIS Review"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "none"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "3"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Inspection Review"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "none"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    {
+                        "container": {
+                            "id": {
+                                "type": "JSON_LITERAL",
+                                "value": "step4"
+                            },
+                            "label": {
+                                "type": "TRANSLATION_LITERAL",
+                                "value": {
+                                    "code": null,
+                                    "comment": "",
+                                    "message": "Complete"
+                                }
+                            },
+                            "progress": {
+                                "type": "JSON_LITERAL",
+                                "value": "none"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    }
+                ],
+                "type": "LIST_CONTAINER"
+            },
+            "labelPosition": {
+                "type": "JSON_LITERAL",
+                "value": "bottom"
+            },
+            "readonly": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "selectedItem": {
+                "type": "JSON_LITERAL",
+                "value": "3"
+            },
+            "showCompletedCount": {
+                "type": "JSON_LITERAL",
+                "value": false
             },
             "size": {
                 "type": "JSON_LITERAL",
@@ -5167,6 +5304,12 @@
                 }
             },
             {
+                "element_id": "stepper_1",
+                "styles": {
+                    "max-height": "100px"
+                }
+            },
+            {
                 "element_id": "resizable_panes",
                 "styles": {
                     "flex": "none",
@@ -5329,6 +5472,9 @@
   "message" : "Cancel",
   "comment" : ""
 }, {
+  "message" : "Complete",
+  "comment" : ""
+}, {
   "message" : "Compose",
   "comment" : ""
 }, {
@@ -5345,6 +5491,15 @@
   "comment" : ""
 }, {
   "message" : "Editable record form only",
+  "comment" : ""
+}, {
+  "message" : "GIS Review",
+  "comment" : ""
+}, {
+  "message" : "Initiated",
+  "comment" : ""
+}, {
+  "message" : "Inspection Review",
   "comment" : ""
 }, {
   "message" : "Left pane",
@@ -5393,14 +5548,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-08-03 18:06:13</sys_created_on>
         <sys_id>2c036aa183fb0a10c2f1f0b6feaad34e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Approval Record Page</sys_name>
         <sys_package display_value="Aqua Power" source="x_1346722_magma">24240a5f83af0a10c2f1f0b6feaad317</sys_package>
         <sys_policy/>
         <sys_scope display_value="Aqua Power">24240a5f83af0a10c2f1f0b6feaad317</sys_scope>
         <sys_update_name>sys_ux_macroponent_2c036aa183fb0a10c2f1f0b6feaad34e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-08-03 18:06:15</sys_updated_on>
+        <sys_updated_on>2024-08-06 18:47:01</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=2c036aa183fb0a10c2f1f0b6feaad34e"/>
 </record_update>
